@@ -10,7 +10,7 @@ Repozytorium Język Java zawiera przykładowe projekty, kod źródłowy i materi
 
 /Lab: Tutaj znajdziesz przykładowe skrypty i narzędzia programistyczne, które mogą ułatwić pracę z językiem Java.
 
-/Kursy: Ten folder zawiera różnego rodzaju materiały edukacyjne, takie jak podręczniki, tutoriale i artykuły związane z językiem Java.
+/Courses: Ten folder zawiera różnego rodzaju materiały edukacyjne, takie jak podręczniki, tutoriale i artykuły związane z językiem Java.
 
 ### **Jak zacząć:**
 Sklonuj repozytorium na swój lokalny komputer:
