@@ -9,6 +9,6 @@ public class TestPary {
 
         Para<Integer, Double> para2 = new Para<>(1, 2.5);
         System.out.println("Liczba całkowita: " + para2.getPierwszy());
-        System.out.println("Liczba zmiennoprzecinkowa: " + para2.getDrugi());
+        System.out.println("Liczba zmiennoprzecinkowa: " + para2.getDrugi()); //
     }
 }
