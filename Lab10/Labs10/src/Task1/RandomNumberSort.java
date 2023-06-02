@@ -31,7 +31,7 @@ public class RandomNumberSort {
             int min_idx = i;
             for (int j = i+1; j < n; j++)
                 if (arr[j] < arr[min_idx])
-                    min_idx = j;
+                    min_idx = j; //
 
             // Zamiana miejscami najmniejszego elementu z pierwszym elementem
             int temp = arr[min_idx];
