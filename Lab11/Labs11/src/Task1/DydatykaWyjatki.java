@@ -21,7 +21,7 @@ public class DydatykaWyjatki {
             System.out.println("Wprowadzona wartość nie jest liczbą Całkowitą!");
         }catch (ArrayIndexOutOfBoundsException ex2)
         {
-            System.out.println("Wykorzystano poza zakres tablicy!");
+            System.out.println("Wykorzystano poza zakres tablicy!"); //
         }
     }
 }
