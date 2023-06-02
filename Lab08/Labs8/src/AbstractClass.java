@@ -9,5 +9,5 @@ public abstract class AbstractClass {
         return someField;
     }
 
-    public abstract void someAbstractMethod();
+    public abstract void someAbstractMethod(); //
 }
