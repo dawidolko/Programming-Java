@@ -13,6 +13,7 @@ Repozytorium Język Java zawiera przykładowe projekty, kod źródłowy i materi
 /Courses: Ten folder zawiera różnego rodzaju materiały edukacyjne, takie jak podręczniki, tutoriale i artykuły związane z językiem Java.
 
 ### **Jak zacząć:**
+
 Sklonuj repozytorium na swój lokalny komputer:
 ```
 git clone https://github.com/dawidolko/Programming-Java.git
