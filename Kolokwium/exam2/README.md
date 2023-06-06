@@ -4,14 +4,14 @@
 
 Utwórz klasę NegativeValueException, która będzie wyrzucać wyjątki w przypadku gdy ustawiona lub wprowadzona liczba jest mniejsza od zera (a powinna być większa od zera). Przetestuj działanie klasy.
 
-## **Zadanie 2.** `(6 pkt)` 
+## **Zadanie 2.** `(26 pkt)` 
 
 Utwórz klasę abstrakcyjną `Zwierze`. 
 - Klasa posiada odpowiednie pola: nazwa: `String`,  gatunek: `String`, waga: `float`.
 - Dokonaj hermetyzacji pól pamiętając, że waga nie może być ujemna. W razie wprowadzenia wartości ujemnej ma być wyrzucony wyjątek `NegativeValueException`.
 - Klasa posiada odpowiednie konstruktory (przynajmniej dwa).
 - Klasa ma dwie metody: abstrakcją WydajGlos() i zwykłą (konkretną) `PokazInformacje()`.
- Metoda `PokazInformacje()` powinna wyświetlać w konsoli tekst „Dane zwierzęcia:”, a następnie jego nazwa, gatunek, wagę oraz wywoływać metodę WydajGlos(). 
+ Metoda `PokazInformacje()` powinna wyświetlać w konsoli tekst „Dane zwierzęcia:”, a następnie jego nazwa, gatunek, wagę oraz wywoływać metodę WydajGlos(). `(6 pkt)`
 
 B) Utwórz interfejsy z metodami abstrakcyjnymi `(2 pkt)`: 
 •	`IPlywanie` z metodą: `Plywaj(int predkoscPlywania, int glebokosc);`
