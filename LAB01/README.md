@@ -325,15 +325,15 @@ programu utwórz odpowiednie menu. Do obsługi menu użyć rozbudowanej konstruk
 Napisz program umożliwiający wprowadzanie 10-ciu liczb. Dla wprowadzonych liczb wykonaj
 odpowiednie algorytmy:
 
- oblicz sumę elementów tablicy,
+- oblicz sumę elementów tablicy,
 
- oblicz iloczyn elementów tablicy,
+- oblicz iloczyn elementów tablicy,
 
- wyznacz wartość średnią,
+- wyznacz wartość średnią,
 
- wyznacz wartość minimalną,
+- wyznacz wartość minimalną,
 
- wyznacz wartość maksymalną.
+- wyznacz wartość maksymalną.
 
 Wyniki działania algorytmów wyświetlaj na konsoli. Utwórz odpowiednie menu.
 
