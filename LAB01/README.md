@@ -244,20 +244,20 @@ System.out.print(arrayElem + " ");
 ```
 
 **3.3 Instrukcje brak i continue**
-Instrukcja BREAK służy do natychmiastowego przerwania wykonania pętli lub ciągu
-instrukcji w instrukcji wyboru SWITCH. Wykonanie instrukcji BREAK powoduje skok do
+Instrukcja `BREAK` służy do natychmiastowego przerwania wykonania pętli lub ciągu
+instrukcji w instrukcji wyboru `SWITCH`. Wykonanie instrukcji `BREAK` powoduje skok do
 pierwszej instrukcji za przerwaną pętlą czy instrukcją wyboru. Instrukcja ta jest zazwyczaj
-stosowana do przerwania wykonania w instrukcji wyboru SWITCH o której piszę w kolejnym
+stosowana do przerwania wykonania w instrukcji wyboru `SWITCH` o której piszę w kolejnym
 artykule. Użycie w innym celu jest niezalecane i raczej dość rzadko spotykane.
 Instrukcja CONTINUE może być użyta wewnątrz pętli i służy do przerwania wykonania
 danej iteracji pętli - tylko wykonanie bieżącej iteracji jest przerwane, nie zaś wykonanie całej pętli,
-tak jak to ma miejsce w przypadku instrukcji BREAK.
-W przypadku umieszczenia instrukcji BREAK lub CONTINUE w pętli zagnieżdżonej w
+tak jak to ma miejsce w przypadku instrukcji `BREAK`.
+W przypadku umieszczenia instrukcji `BREAK` lub `CONTINUE` w pętli zagnieżdżonej w
 innej pętli mają one skutek tylko dla pętli w której bezpośrednio się znajdują, ale możliwe jest
 wskazanie – poprzez etykietę – pętli bardziej zewnętrznej. Przykładowo, uruchomienie programu:
+```
 public static void main(String[] args) {
 outerLoop:
-```
 for (int j = 0; ; j += 100) {
 for (int i = 0; i < 5; i++) {
 if ((i + j) % 2 == 1)
@@ -270,59 +270,91 @@ System.out.println(i + j + " jest liczbą parzystą");
 }
 ```
 skutkuje wyświetleniem sekwencji:
-`
+```
 0 jest liczbą parzystą
+
 2 jest liczbą parzystą
+
 4 jest liczbą parzystą
+
 100 jest liczbą parzystą
+
 102 jest liczbą parzystą
+
 104 jest liczbą parzystą
-`
-Instrukcja CONTINUE z powyższego przykładu nie została oznaczona żadną etykietą, dlatego
+```
+
+Instrukcja `CONTINUE` z powyższego przykładu nie została oznaczona żadną etykietą, dlatego
 dotyczy ona wewnętrznej pętli FOR. Instrukcja BREAK z etykietą outerLoop powoduje natomiast
 przerwanie wykonania obydwu pętli, jako że etykietą tą została oznaczona pętla zewnętrzna.
 
-Zadania do wykonania w ramach konspektu:
+## **Zadania do wykonania w ramach konspektu:**
 
-Zadanie 1.
+### **Zadanie 1.**
+
 Napisz program obliczający wyróżnik delta i pierwiastki trójmianu kwadratowego.
-Zadanie 2.
+
+### **Zadanie 2.**
+
 Napisz kalkulator obliczający: sumę, różnicę, iloczyn, iloraz, potęgę, pierwiastek, oraz wartości
-funkcji trygonometrycznych dla zadanego kąta. Użyj biblioteki Math np. Math. Sin(2.5). Proszę
+funkcji trygonometrycznych dla zadanego kąta. Użyj biblioteki Math np. `Math. Sin(2.5)`. Proszę
 pamiętać, że wartości kąta podawane do funkcji mierzone są miarą łukową. Wyniki działania
 algorytmów wyświetlaj na konsoli. Do obsługi menu proszę użyć konstrukcji switch-case oraz pętli
 while.
-Zadanie 3.
+
+### **Zadanie 3.**
+
 Napisz program umożliwiający wprowadzanie 10-ciu liczb rzeczywistych do tablicy. Następnie
-utwórz następujące funkcjonalności używając pętli for:
+utwórz następujące funkcjonalności używając pętli `for`:
+
 a) Wyświetlanie tablicy od pierwszego do ostatniego indeksu.
+
 b) Wyświetlanie tablicy od ostatniego do pierwszego indeksu.
+
 c) Wyświetlanie elementów o nieparzystych indeksach.
+
 d) Wyświetlanie elementów o parzystych indeksach.
+
 Wyniki działania algorytmów wyświetlaj na konsoli. Dla wyboru powyższych funkcjonalności
-programu utwórz odpowiednie menu. Do obsługi menu użyć rozbudowanej konstrukcji else-if oraz
-pętli do-while.
-Zadanie 4.
+programu utwórz odpowiednie menu. Do obsługi menu użyć rozbudowanej konstrukcji `else-if` oraz
+`pętli do-while`.
+
+### **Zadanie 4.**
+
 Napisz program umożliwiający wprowadzanie 10-ciu liczb. Dla wprowadzonych liczb wykonaj
 odpowiednie algorytmy:
+
  oblicz sumę elementów tablicy,
+
  oblicz iloczyn elementów tablicy,
+
  wyznacz wartość średnią,
+
  wyznacz wartość minimalną,
+
  wyznacz wartość maksymalną.
+
 Wyniki działania algorytmów wyświetlaj na konsoli. Utwórz odpowiednie menu.
-Zadanie 5.
-Napisz program wyświetlający liczby od 20-0, z wyłączeniem liczb {2,6,9,15,19}. Do realizacji
-zadania wyłączenia użyj instrukcji continue;
-Zadanie 6.
+
+### **Zadanie 5.**
+
+Napisz program wyświetlający liczby od **20-0**, z wyłączeniem liczb **{2,6,9,15,19}**. Do realizacji
+zadania wyłączenia użyj instrukcji `continue`;
+
+### **Zadanie 6.**
+
 Napisz program, który w nieskończoność pyta użytkownika o liczby całkowite. Pętla nieskończona
 powinna się zakończyć gdy użytkownik wprowadzi liczbę mniejszą od zera. Do opuszczenia pętli
-nieskończonej użyj instrukcji „break”. Pętle nieskończoną realizuje się następującymi
+nieskończonej użyj instrukcji `break`. Pętle nieskończoną realizuje się następującymi
 konstrukcjami:
+```
 while(true)
 { ciało pętli }
 lub
 for(;;)
 { ciało pętli }
-Zadanie 7. Napisz program umożliwiający wprowadzanie n liczb oraz sortujący te liczby metodą
+```
+
+### **Zadanie 7.**
+Napisz program umożliwiający wprowadzanie n liczb oraz sortujący te liczby metodą
 bąbelkową lub wstawiania. Wyniki wyświetlaj na konsoli.
