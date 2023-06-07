@@ -12,9 +12,13 @@ i obsługiwany.
 Do obsługi wyjątków w języku Java wykorzystujemy następujące słowa kluczowe:
 
 `try` - blok instrukcji, które są monitorowane na wypadek błędu.
+
 `catch` - występuje w parze z try. Wyłapuje określone wyjątki i obsługuje je w określony sposób,
+
 `throw` - sygnalizuje wystąpienie określonego wyjątku,
+
 `throws` - określa jakie wyjątki może zgłaszać dana metoda,
+
 `finally` - blok instrukcji, który musi zostanie wykonany obojętnie czy w bloku try wystąpił
 wyjątek czy nie.
 
@@ -38,7 +42,9 @@ Hierarchia wyjątków:
 <br>![cmd_gcc](images/picture1.png)
 
 `Throwable` – klasa obejmująca wszystkie wyjątki,
+
 `Exception` – wyjątki możliwe do wyłapania przez programy użytkowe,
+
 `Error` – wyjątki niemożliwie do wyłapania przez programy użytkowe, błędy środowiska
 wykonawczego.
 
@@ -258,29 +264,51 @@ public static void main(String args[]) {
 ```
 Standardowe wyjątki niesprawdzane
 `RuntimeException` są dostępne automatycznie. Nie muszą być deklarowane w sekcji `throws`.
+
 Kompilator nie sprawdza czy metoda deklaruje czy obsługuje te wyjątki.
+
 ● `ArithmeticException` błędy arytmetyczne, np. dzielenie przez zero
+
 ● `ArrayIndexOutOfBoundsException`indeks tablicy poza zakresem
+
 ● `ArrayStoreException` przypisanie tablicy nieodpowiedniego typu elementu
+
 ● `ClassCastException` niepoprawne rzutowanie
+
 ● `IllegalArgumentException` niepoprawny argument metody
+
 ● `IllegalStateException` środowisko lub aplikacja jest w niepoprawnym stanie
+
 ● `IllegalThreadStateException` wymagana operacja niekompatybilna z bieżącym
 stanem wątka
+
 ● `IndexOutOfBoundException` jakis rodzaj indeksu jest poza zakresem
+
 ● `NegativeArraySizeException` tablica tworzona z ujemnym rozmiarem
+
 ● `NullPointerException` niepoprawne użycie wskaźnika null
+
 ● `NumberFormatException` niepoprawna konwersja stringu na format liczbowy
+
 ● `SecurityException` próba naruszenia bezpieczeństwa
+
 ● `StringIndexOutOfBoundsException` indeks poza zakresem stringu
+
 ● `UnsupportedOperationException` napotkano niepoprawną operację
+
 ● `ClassNotFoundException` nie znaleziono klasy
+
 ● `CloneNotSupportedException` próba klonowania obiektu który nie implementuje
 interfejsu Cloneable.
+
 ● `IllegalAccessException` dostęp do klasy zabroniony
+
 ● `InstantiationException` próba tworzenia obiektu klasy abstrakcyjnej lub interfejsu
+
 ● `InterruptedException` jeden wątek przerwany przed drugi
+
 ● `NoSuchFieldException` pole nie istnieje
+
 ● `NoSuchMethodException` metoda nie istnieje
 
 ## **Zadania:**
