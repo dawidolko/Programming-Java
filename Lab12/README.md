@@ -356,7 +356,7 @@ Do zawartych tam podstawowych klasy strumieni zalicza się:
 - InflaterInputStream
 - ZipInputStream
 - ZipOutputStream
-- 
+
 Przykładowy kod realizujący kompresję pliku metodą GZIP:
 ```
 import java.io.*;
