@@ -1,4 +1,4 @@
-# Lab04 - Hermetyzacja w języku Java
+# Lab05 - Hermetyzacja w języku Java
 
 ## **Zadanie 0.**
 Przeczytać przed przystąpieniem do rozwiązywania zadań z konspektu:
