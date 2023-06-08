@@ -213,141 +213,209 @@ jedną wartość to zwraca true,
 
 `Object[] toArray()` - zwraca tablicę utworzoną z wszystkich elementów danej kolekcji.
 
-Interfejs List
-Interfejs List poza metodami z interfejsu Collection definiuje dodatkowe metody:
-void add(int indeks, Object) - dodaje do listy obiekt na pozycji indeks,
-Object get(int indeks) - zwraca element znajdujący się na miejscu o indeksie indeks,
-int indexOf(Object) - zwraca indeks na którym po raz pierwszy pojawia się dany obiekt, zwraca -1 jeśli nie
+### Interfejs List
+
+Interfejs `List` poza metodami z interfejsu `Collection` definiuje dodatkowe metody:
+
+`void add(int indeks, Object)` - dodaje do listy obiekt na pozycji indeks,
+
+`Object get(int indeks)` - zwraca element znajdujący się na miejscu o indeksie indeks,
+
+`int indexOf(Object)` - zwraca indeks na którym po raz pierwszy pojawia się dany obiekt, zwraca -1 jeśli nie
 występuje na liście,
-int lastIndexOf(Object) - zwraca indeks na którym po raz ostatni pojawia się dany obiekt albo -1,
-Object remove(int indeks) - zwraca element znajdujący się na pozycji indeks a następnie go usuwa,
-Objest set(int indeks, Object) - zastępuje element występujący na podanej pozycji argumentem,
-List subList(int pocz, int przedOst) - zwraca listę utworzoną z elementów bieżącej listy o indeksach
-z przedziału [pocz, przedOst).
-Wyróżnia się dwie klasy list: ArrayList i LinkedList. Każda jest zaimplementowana w celu
+
+`int lastIndexOf(Object)` - zwraca indeks na którym po raz ostatni pojawia się dany obiekt albo -1,
+
+`Object remove(int indeks)` - zwraca element znajdujący się na pozycji indeks a następnie go usuwa,
+
+`Objest set(int indeks, Object)` - zastępuje element występujący na podanej pozycji argumentem,
+
+`List subList(int pocz, int przedOst)` - zwraca listę utworzoną z elementów bieżącej listy o indeksach
+z przedziału **[pocz, przedOst]**.
+
+Wyróżnia się dwie klasy list: `ArrayList` i `LinkedList`. Każda jest zaimplementowana w celu
 zoptymalizowania określonych operacji.
-ArrayList
-ArrayList pozwala na szybkie przeglądanie elementów listy kosztem wolnego wstawiania lub usuwania elementów
+
+### ArrayList
+
+`ArrayList` pozwala na szybkie przeglądanie elementów listy kosztem wolnego wstawiania lub usuwania elementów
 wewnątrz listy. Jest to spowodowane implementacją przy użyci tablic. Poza konstruktorem bezparametrowym
 dostarcza typów konstruktora:
-ArrayList(Collection c) - pozwala utworzyć ArrayList z dowolnej kolekcji,
-ArrayList(int poj) - rezerwuje określoną liczbę elementów, jakie będzie można umieść bez przydziału
+
+`ArrayList(Collection c)` - pozwala utworzyć ArrayList z dowolnej kolekcji,
+
+`ArrayList(int poj)` - rezerwuje określoną liczbę elementów, jakie będzie można umieść bez przydziału
 pamięci na dodatkowe elementy.
+
 Poza tym metodami interfejsów Collection i List można wywołać dodatkowe metody:
-void ensuerCapacity(int) - ustawia minimalną liczbę danych jakie mogą być przechowywane bez
+
+`void ensuerCapacity(int)` - ustawia minimalną liczbę danych jakie mogą być przechowywane bez
 realokacji pamięci,
-void trimToSize() - zmniejsza długość ArrayList do bieżącej ilości elementów.
+
+`void trimToSize()` - zmniejsza długość ArrayList do bieżącej ilości elementów.
+
 Przykład aplikacji ze sparametryzowaną kolekcją ArrayList:
+```
 import java.util.ArrayList;
-public class ArrayListExample {
-public static void main(String[] args) {
-ArrayList<String> arlist=new ArrayList<String>();
-//<E> it is return type of ArrayList
-arlist.add("First Element"); // adding element in ArrayList
-arlist.add("Second Element");
-arlist.add("Third Element");
-arlist.add("forth Element");
-arlist.add("fifth Element");
-// add element with index for fix order
-arlist.add(2, "Fixed Order of Element");
-// arlist.size() inform number of elements in ArrayList
-System.out.println("ArrayList Size :"+arlist.size());
-// get elements of ArrayList
-for(int i=0;i<arlist.size();i++)
-{
-System.out.println("ArrayList Element "+i+" :"+arlist.get(i));
+  public class ArrayListExample {
+    public static void main(String[] args) {
+      ArrayList<String> arlist=new ArrayList<String>();
+      //<E> it is return type of ArrayList
+      arlist.add("First Element"); // adding element in ArrayList
+      arlist.add("Second Element");
+      arlist.add("Third Element");
+      arlist.add("forth Element");
+      arlist.add("fifth Element");
+      // add element with index for fix order
+      arlist.add(2, "Fixed Order of Element");
+      // arlist.size() inform number of elements in ArrayList
+      System.out.println("ArrayList Size :"+arlist.size());
+      // get elements of ArrayList
+      for(int i=0;i<arlist.size();i++)
+        {
+        System.out.println("ArrayList Element "+i+" :"+arlist.get(i));
+      }
+  }
 }
-}
-}
-LinkedList
-LinkedList pozwala szybko wstawiać i usuwać elementy z dowolnego miejsca, w zamian za to przeglądanie elementu
+```
+
+### LinkedList
+
+`LinkedList` pozwala szybko wstawiać i usuwać elementy z dowolnego miejsca, w zamian za to przeglądanie elementu
 o danym indeksie jest operacją stosunkowo powolną w porównaniu do ArrayList. Posiada ona dodatkowe metody:
-void addFirst(Object) - wstawia argument na początku
-listy void addLast(Object) - wstawia argument na końcu
-listy Object getFirst() - zwraca pierwszy element listy
-Object getLast() - zwraca ostatni element listy
-Object removeFirst() - zwraca pierwszy element i go usuwa z listy
-Object removeLast() - zwraca ostatni element i go usuwa z listy
-Jeżeli rozważamy wybór między tablicą (array), LinkedList lub ArrayList to:
+
+`void addFirst(Object)` - wstawia argument na początku
+
+`listy void addLast(Object)` - wstawia argument na końcu
+
+`listy Object getFirst()` - zwraca pierwszy element listy
+
+`Object getLast()` - zwraca ostatni element listy
+
+`Object removeFirst()` - zwraca pierwszy element i go usuwa z listy
+
+`Object removeLast()` - zwraca ostatni element i go usuwa z listy
+
+Jeżeli rozważamy wybór między tablicą (array), `LinkedList` lub `ArrayList` to:
+
 1) jeżeli nie ma konieczności zmieniania rozmiaru (np. wiemy że nie będzie to więcej niż jakaś liczba) to należy wybrać
 tablicę
-2) jeżeli nie planujemy często dokonywać usuwaia lub wstawiania elementu w środku – ArrayList
-3) w przeciwnym wypadku stosujemy LinkedList
-Kontenery Set - wybrane aspekty
-Kontenery typu Set czyli zbiory służą do przechowywania nie powtarzających się elementów. Interfejs Set nie definiuje
-nowych metod w stosunku do interfejsu Collection, jednak zbiory zachowują się zupełnie inaczej niż inne kolekcje. Jak
+
+2) jeżeli nie planujemy często dokonywać usuwaia lub wstawiania elementu w środku – `ArrayList`
+
+3) w przeciwnym wypadku stosujemy `LinkedList`
+
+### Kontenery Set - wybrane aspekty
+
+Kontenery typu `Set` czyli zbiory służą do przechowywania nie powtarzających się elementów. Interfejs `Set` nie definiuje
+nowych metod w stosunku do interfejsu `Collection`, jednak zbiory zachowują się zupełnie inaczej niż inne kolekcje. Jak
 już wspomniano nie pozwala na wprowadzanie powtarzających się obiektów dodatkowo przechowywane typy muszą
-implementować funkcję equals.
+implementować funkcję `equals`.
+
 Występują dwie implementacje:
-HashSet pozwalający na szybkie zlokalizowanie elementu ale wymajający implementacji funkcji hashCode().
-TreeSet, zapewniający uporządkowanie elementów dzięki implementacji na bazie drzewa.
-TreeSet udostępnia następujące funkcje - jest implementacją klasy SortedSet:
-Object firs() - zwraca najmniejszy element,
-Objest last() - zwraca największy element,
-TreeSet subset(int pocz, int przedOst) - zwraca fragment zbioru którego elemnty są większe lub
+
+`HashSet` pozwalający na szybkie zlokalizowanie elementu ale wymajający implementacji funkcji `hashCode()`.
+
+`TreeSet`, zapewniający uporządkowanie elementów dzięki implementacji na bazie drzewa.
+`TreeSet` udostępnia następujące funkcje - jest implementacją klasy SortedSet:
+
+`Object firs()` - zwraca najmniejszy element,
+
+`Objest last()` - zwraca największy element,
+
+`TreeSet subset(int pocz, int przedOst)` - zwraca fragment zbioru którego elemnty są większe lub
 równe od pocz i mniejsze od przedOst,
-TreeSet headSet(Object elem) - zwraca zbiór o elementach mniejszych równych elem,
-TreeSet tailSet(Object elem) - zwraca zbiór o elementach większych od elem.
+
+`TreeSet headSet(Object elem)` - zwraca zbiór o elementach mniejszych równych elem,
+
+`TreeSet tailSet(Object elem)` - zwraca zbiór o elementach większych od elem.
+```
 import java.util.HashSet;
 import java.util.Iterator;
 public class HashSetExample {
-public static void main(String[] args) {
-HashSet<String> hs=new HashSet<String>();
-// duplicate element is not permitted
-hs.add("b");
-hs.add("a");
-hs.add("c");
-hs.add("d");
-hs.add("d");
-Iterator it=hs.iterator();
-while(it.hasNext())
-{
-String value =(String)it.next();
-System.out.println("Value :"+value);
+  public static void main(String[] args) {
+    HashSet<String> hs=new HashSet<String>();
+    // duplicate element is not permitted
+    hs.add("b");
+    hs.add("a");
+    hs.add("c");
+    hs.add("d");
+    hs.add("d");
+    Iterator it=hs.iterator();
+    while(it.hasNext())
+    {
+      String value =(String)it.next();
+      System.out.println("Value :"+value);
+    }
+    //find size of hashSet
+    System.out.println("Size :"+hs.size());
+    // Remove element from hashSet : hs.remove("d");
+    // To remove all object from hashSet hs.clear();
+  }
 }
-//find size of hashSet
-System.out.println("Size :"+hs.size());
- Remove element from hashSet : hs.remove("d");
- To remove all object from hashSet hs.clear();
-}
-}
-Kontenery Map – wybrane aspekty
-Odwzorowania (mapy, słowniki, tablice asocjacyjne) są podobne do tablic czy też ArrayList, przy czym
-przechowują elementy będąca parami typu: wartość – klucz. Rolę indeksu tablic czy też pozycji w ArrayList spełnia
+```
+
+### Kontenery Map – wybrane aspekty
+
+Odwzorowania (mapy, słowniki, tablice asocjacyjne) są podobne do tablic czy też `ArrayList`, przy czym
+przechowują elementy będąca parami typu: wartość – klucz. Rolę indeksu tablic czy też pozycji w `ArrayList` spełnia
 klucz.
-Wyróżniamy dwie różne implementacje Map:
-HashMap - oparta na tablicach haszujących zapewnia stały czas wykonania operacji wstawiania i zlokalizowania
+
+Wyróżniamy dwie różne implementacje `Map`:
+
+`HashMap` - oparta na tablicach haszujących zapewnia stały czas wykonania operacji wstawiania i zlokalizowania
 obiektu. Konstruktor pozwala ustawić pojemność oraz współczynnik wypełnienia tego kontenera.
-TreeMap - oparta na drzewach czerwono-czarnych, jej elementy są automatycznie sortowane, ponadto ten typ
-kontenera pozwala na wyodrębnienie podkontenera za pomocą metody subMap().
-Iteratory
-Iteratory są podobne do wskaźników pokazujących na określony element w danym kontenerze. Pozwalają na
+
+`TreeMap` - oparta na drzewach czerwono-czarnych, jej elementy są automatycznie sortowane, ponadto ten typ
+kontenera pozwala na wyodrębnienie podkontenera za pomocą metody `subMap()`.
+
+### Iteratory
+
+`Iteratory` są podobne do wskaźników pokazujących na określony element w danym kontenerze. Pozwalają na
 dokonanie tylko kilku czynności, ale za to można ich dokonać na każdym kontenerze:
-iterator iterator() - zwraca iterator
-E next() - zwraca element znajdujący się za bieżącym
-boolean hasNext() - sprawdzamy czy jest jakiś więcej obiektów w danym kontenerze za
-bieżącym void remove() - usuwa ostatni zwrócony przez iterator element
+
+`iterator iterator()` - zwraca iterator
+
+`E next()` - zwraca element znajdujący się za bieżącym
+
+`boolean hasNext()` - sprawdzamy czy jest jakiś więcej obiektów w danym kontenerze za
+`bieżącym void remove()` - usuwa ostatni zwrócony przez iterator element
+
 Powyższy zestaw czynności, jakich możemy dokonać wystarcza do sprawnego przeszukiwania i ewentualnego
 usuwania elementów. Należy pamiętać, że funkcja iterator() jest funkcją składową poszczególnych kontenerów czyli
-wywołujemy
-je na rzecz obiektów kontenerowych pozostałe zaś to składowe klasy Iterator zatem wywołujemy je na rzecz iteratorów.
+wywołujemy je na rzecz obiektów kontenerowych pozostałe zaś to składowe klasy Iterator zatem wywołujemy je na rzecz iteratorów.
+```
 Iterator iter = c.iterator();
 while(iter.hasNext())
-{
-Object o = iter.next();
- ...
- wykonanie operacji na obiekcie o
- ...
-if ( warunek_usuniecia(o) ) iter.remove();
+  {
+    Object o = iter.next();
+   ...
+   wykonanie operacji na obiekcie o
+   ...
+  if ( warunek_usuniecia(o) ) iter.remove();
 }
-Zadania:
-1. Utwórz tablicę losującą 100 liczb. Utwórz metody sortującą tą tablicę i wyświetlającą wynik.
-2. Utwórz aplikację losującą 100 liczb całkowitych. Wylosowane dane pamiętaj w strukturze TreeSet.
+```
+
+## **Zadania:**
+
+### **Zadanie 1.**
+
+Utwórz tablicę losującą 100 liczb. Utwórz metody sortującą tą tablicę i wyświetlającą wynik.
+
+### **Zadanie 2.** 
+
+Utwórz aplikację losującą 100 liczb całkowitych. Wylosowane dane pamiętaj w strukturze `TreeSet`.
 Następnie wyświetl dane używając iteratora. Co otrzymałeś?
-3. Utwórz klasę zawierającą opis parametrów samochodów różnych marek, tj. marka, nazwa samochodu,
-max. prędkość, cena itp. Uwzględnij mechanizm hermetyzacji. Zaimplementuj listę generyczną
+
+### **Zadanie 3.**
+
+Utwórz klasę zawierającą opis parametrów samochodów różnych marek, tj. `marka`, `nazwa samochodu`,
+`max. prędkość`, `cena` itp. Uwzględnij mechanizm hermetyzacji. Zaimplementuj listę generyczną
 przechowującą te wszystkie samochody. Utwórz odpowiednie metody dostępu do danych.
-4. Napisz aplikację realizującą słownik umożliwiający przetłumaczenie dwudziestu podstawowych słów
+
+### **Zadanie 4.**
+
+Napisz aplikację realizującą słownik umożliwiający przetłumaczenie dwudziestu podstawowych słów
 zapisanych w języku polskim na język angielski. Po wpisaniu słowa w języku polskim w konsoli powinien
 się pojawić ekwiwalent słowa w języku angielskim. Aplikacja powinna działać do chwili wpisania łańcucha
-„koniec!”. Do reprezentacji danych użyj typu generycznego HashMap.
+`koniec!`. Do reprezentacji danych użyj typu generycznego HashMap.
