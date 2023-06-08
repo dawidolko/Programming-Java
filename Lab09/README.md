@@ -23,9 +23,9 @@ Dany jest kod programu implementujący tablicę dynamiczną przechowującą wart
 oparciu o zwykłe tablice. Przerób kod tak aby miał on postać generyczną i mógł przechowywać
 dowolne typy referencyjne.
 
-<br>![cmd_gcc](images/picture1.png)
+<br>![cmd_gcc](images/Picture1.png)
 
-<br>![cmd_gcc](images/picture2.png)
+<br>![cmd_gcc](images/Picture2.png)
 
 ## **Zadanie 4.**
 
