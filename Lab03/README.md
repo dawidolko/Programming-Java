@@ -1,4 +1,4 @@
-# **Lab02 - Operatory, rekurencja, typ łańcuchowy w języku Java**
+# **Lab03 - Operatory, rekurencja, typ łańcuchowy w języku Java**
 
 ## [1.] Operatory
 
