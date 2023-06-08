@@ -1,51 +1,39 @@
-# **Lab00 - Praca w środowisku NetBeans**
+# Lab00 - wstęp, zapoznanie się ze środowiskiem
 
-### **UWAGA:** 
-`Do niniejszego laboratorium należy przygotować sprawozdanie z wyników pracy dla
-poszczególnych zadań. Należy też dodać kody programów w formie tekstowej.`
+Witaj w repozytorium Lab00! To jest pierwsze laboratorium, w którym zapoznamy się ze środowiskiem programistycznym i przygotujemy się do dalszych prac związanych z programowaniem.
 
-## **Zadanie 1:**
-Uruchom środowisko NetBeans a następnie:
+## Cel laboratorium
+Celem tego laboratorium jest zapoznanie się ze środowiskiem programistycznym i wykonanie kilku podstawowych czynności, które będą nam potrzebne w dalszej pracy. Skupimy się na:
 
-A) Utwórz nowy projekt i nadaj mu nazwę `HelloWorld` lub względnie `HelloWorld` z indeksem
-liczbowym np. HelloWorld1 jeśli istnieje już projekt o nazwie „HelloWorld”.
-<br>![](images/picture1.png)
-<br>![](images/picture2.png)
+- Instalacji i konfiguracji środowiska programistycznego
+- Tworzeniu projektu i struktury katalogów
+- Uruchamianiu podstawowego kodu
 
-B) Wprowadź do projektu następujący kod programu w języku JAVA:
+## Zawartość repozytorium
+W repozytorium znajdziesz:
 
-<br>![](images/picture3.png)
+- Instrukcję instalacji i konfiguracji środowiska programistycznego
+- Przykładowy kod, który będziemy używać do testowania naszego środowiska
+- Strukturę katalogów, która będzie nam towarzyszyć w dalszych laboratoriach
 
-Podczas wprowadzania kodu do projektu należy zwrócić uwagę gdzie wpisuje się kod aby nie nie
-wprowadzić go mylnie do innego projektu, utworzonego wcześniej w środowisku. Właściwe
-miejsce wprowadzanie kodu w menu projektów (z lewej strony) zaznaczono kolorem różowym na
-rysunku poniżej. Po wprowadzeniu kodu programu należy dokonać jego kompilacji naciskając
-zielony trójkącik (zaznaczony na poniższym rysunku czerwonym kółkiem).
+## Jak zacząć:
 
-<br>![](images/picture4.png)
+- Przeczytaj instrukcję instalacji i konfiguracji środowiska programistycznego. Upewnij się, że masz wszystkie wymagane komponenty zainstalowane i skonfigurowane poprawnie.
+- Sklonuj to repozytorium na swój lokalny komputer.
+- Otwórz projekt w swoim ulubionym środowisku programistycznym.
+- Uruchom przykładowy kod i sprawdź, czy wszystko działa poprawnie.
+- 
+## Jak korzystać z tego repozytorium:
 
-Jeśli kod zostanie wprowadzony poprawnie, kompilator uruchomi go i konsoli wyświetli się wynik
-działania programu. W przeciwnym razie w konsoli pojawi się informacja o błędzie w kodzie.
-Na rysunku poniżej pokazano przypadek gdy nastąpiła pomyłka podczas wprowadzania kodu –
-kompilator informuje, w której linii występuje błąd składniowy.
+- Możesz używać tego repozytorium jako podstawy do swoich własnych projektów.
+- Możesz eksperymentować, modyfikować kod i dostosowywać go do swoich potrzeb.
+- Możesz zgłaszać problemy, propozycje lub udostępniać swoje własne rozwiązania w formie pull requestów.
+- 
+## Zalecenia
+Staraj się dobrze zrozumieć instrukcje i działanie kodu przed przystąpieniem do kolejnych laboratoriów.
+Bądź cierpliwy i wytrwały - programowanie to proces uczenia się i rozwiązywania problemów.
 
-<br>![](images/picture5.png)
+Życzę owocnej pracy i miłego programowania!
+Zapraszam do eksplorowania i korzystania z tego repozytorium.
 
-Java jest językiem silnie typowanym i pokazuje błędy składniowe już w trakcie edycji kodu.
-
-C) Proszę wyświetlić wyniki poprawnie zredagowanego programu i umieścić je w sprawozdaniu
-wraz z krótkim omówieniem.
-
-## **Zadanie 2:**
-Utwórz nowy projekt o nazwie „SystemProperties”. W metodzie „main” umieść poniższy kod.
-Uruchom program i wyświetl wyniki. Wyświetlone na konsoli wyniki umieść w sprawozdaniu wraz
-z krótkim omówieniem.
-
-<br>![](images/picture6.png)
-
-## **Zadanie 3.**
-Utwórz projekt o nazwie DeklaracjaWlasna. W metodzie „main” umieść poniższy kod. Uruchom
-program i wyświetl wyniki. Wyświetlone na konsoli wyniki umieść w sprawozdaniu wraz z
-własnym odniesieniem się do treści deklaracji własnej.
-
-<br>![](images/picture7.png)
+`"Stay hungry, stay foolish." - Steve Jobs`
