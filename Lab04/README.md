@@ -1,48 +1,81 @@
-# Lab04 - Hermetyzacja w języku Java
-
-## **Zadanie 0.**
-Przeczytać przed przystąpieniem do rozwiązywania zadań z konspektu:
-Przypomnienie informacji o hermetyzacji: [LINK](http://edu.pjwstk.edu.pl/wyklady/poj/scb/)
+# Lab03 - Tworzenie klas i obiektów w języku Java
 
 ## **Zadanie 1.**
-Dla wszystkich zadań z poprzedniego konspektu `(Lab. 03.)` dodać hermetyzację.
-
-## **Zadanie 2.**
-Zaprojektuj i utwórz klasę, która opisuje pozycję książkową w księgarni. Książki cechują się
-następującymi właściwościami: `tytuł`, `autor`, `liczba stron`, `rok wydania`, `cena`. Zastosuj enkapsulację
-pól w klasie, przy czym uwzględnij, że tylko cena książki może się zmieniać w czasie, a pozostałe
-atrybuty są niezmienne (tylko do odczytu). Utwórz przykładowe obiekty i pokaż w jaki sposób
-można dostać się do pól obiektu poprzez metody.
-
-## **Zadanie 3 .**
-Zaprojektuj klasę symulującą działanie struktury stosu. W ramach klasy występują następujące
-prywatne pola: n-elementowa tablica liczb całkowitych reprezentująca stos, wskaźnik stosu jako
-liczba całkowita. Wskaźnik stosu wskazuje element ze szczytu stosu. Utwórz metody:
-umieszczającą element na szczycie stosu `push` oraz ściągającą wartość ze szczytu stosu `pop`.
-Zadbaj o to aby w razie przepełnienia stosu nie można było umieścić wartości na stosie, a w razie
-stosu pustego nie można było ściągnąć danej ze stosu. Zauważ, że instrukcje `push` i `pop`
-zachowują się jak `get` i `set`. Utwórz konstruktor, którego argumentem jest rozmiar stosu. W
-ciele konstruktora dokonaj inicjalizacji n-elementowej tablicy reprezentującej stos. Pamiętaj, że
-instrukcja `push` i `pop` zmieniają odpowiednio wskaźnik stosu.
+Utwórz projekt o nazwie DaneOsobowe zawierający dwie klasy: DaneOsobowe i Osoba zob. rys.
+poniżej.
 
 <br>![cmd_gcc](images/picture1.png)
 
+Uzupełnij klasy następującym kodem:
+**Osoba:**
+
+<br>![cmd_gcc](images/picture2.png)
+
+**Dane osobowe:**
+
+<br>![cmd_gcc](images/picture3.png)
+
+Jakie wyniki zostaną wyświetlone na konsoli.
+
+**Ważne (przeczytać !!!):**
+
+- Konstruktory służą do tworzenia obiektów. W języku Java konstruktor posiada
+następujące cechy: jego nazwa jest identyczna z nazwą klasy, w której się znajduje; może
+posiadać parametry, którymi najczęściej ustawia wartości pól w klasie; w odróżnieniu od
+metod nie zwraca żadnej wartości. Jeśli programista nie zdefiniuje, żadnego konstruktora
+wewnątrz klasy, kompilator utworzy w trakcie kompilacji konstruktor domniemany dla tej
+klasy. Będzie on ekwiwalentem konstruktora pustego, z tą różnicą, że nie będzie on
+obecny w kodzie programu. Java tworzy konstruktory domyślne tylko w przypadku braku
+jakiegokolwiek konstruktora w kodzie klasy.
+- Konstruktory i metody w języku Java podlegają mechanizmowi przeciążenia (ang.
+overload). Oznacza to, że mogą występować w różnych wersjach (pod różnymi
+postaciami). Metody przeciążane cechują się tą samą nazwą. Różnić się natomiast mogą
+ilością argumentów, typem argumentów, typem zwracanym i wnętrzem metody (kodem
+programu wewnątrz metody). Podobnie jest z konstruktorami, przy czym te z definicji
+mają tę samą nazwę, i dodatkowo w przeciwieństwie do metod nie zwracają wartości. Jeśli
+zatem konstruktory nie zwracają wartości, nie można ich przeciążać po zwracanym typie.
+Solidarnie do nich również i metody nie mogą być przeciążane po zwracanym typie, co
+jednak nie oznacza, że wszystkie one muszą mieć ten sam typ zwracany. Konkludując,
+można stwierdzić, że wariantywność przeciążanych metod objawia się poprzez różnice w
+ilości i typie argumentów przyjmowanych przez metodę czy konstruktor. Mechanizm
+przeciążania należy do zjawisk polimorfizmu w językach programowania.
+
+## **Zadanie 2.** 
+Na podstawie zadania 1, utwórz aplikacją zawierającą klasę `Student`, która posiada
+następujące pola: `imię`, `nazwisko`, `nr_indeksu`, `nazwa specjalności`, `rok_studiow`. Dla pól dobierz
+odpowiedni typ danych. Utwórz cztery przeciążenia konstruktorów dla tej klasy (każda wersja
+konstruktora powinna przyjmować przynajmniej jeden parametr - nie tworzyć konstruktora
+pustego). Utwórz metodę wyświetlającą dane o studencie. Utwórz cztery obiekty klasy `student`,
+każdy korzystający z innego przeciążenia konstruktora podczas tworzenia obiektu. Dla każdego
+obiektu uruchom metodę wyświetlającą dane.
+
+## **Zadanie 3.**
+Utwórz, która umożliwia wprowadzanie danych studenta z konsoli. Użyj do tego celu
+znanego już obiektu `Scanner` oraz klasy `Student` z zadania 2.
+
 ## **Zadanie 4.**
-Zdefiniuj klasę opisującą datę. Zastanów się nad wyborem wewnętrznej reprezentacji dat. Zdefiniuj
-metody pozwalające na odczytywanie bieżącej daty i przestawianie jej o jeden tydzień w przód i w
-tył. Zadbaj o dobranie odpowiednich modyfikatorów dostępu do składowych.
+Utwórz projekt `ObliczanieFigur`. Do projektu dodaj klasy opisujące następujące figury
+geometryczne: `Koło`, `Kwadrat`, `Prostokąt`, `Sześcian`, `Prostopadłościan`, `Kula`, `Stożek`. Dla każdej
+klasy dobierz odpowiednie pola. Utwórz także metody obliczające pola figur, obwody (dla figur
+płaskich), oraz objętości (dla figur przestrzennych). Dla każdej klasy utwórz metodę wyświetlającą
+dane dotyczące figury tj. nazwa, parametry, wartość pola i obwodu lub objętości. Utwórz obiekty
+tych figur i pokaż wyniki obliczeń przy użyciu funkcji wyświetlającej dane.
+
+***Utwórz kalkulator dla figur geometrycznych tj. odpowiednie menu pozwalające na: wybór1 figury
+geometrycznej oraz wprowadzanie parametrów dla tej figury z konsoli. Następnie wyświetl wyniki
+przy użyciu metody wyświetlającej dane.**
 
 ## **Zadanie 5.**
-Zdefiniuj klasę `Pracownik` (podobnie do klasy osoba z wykładu, dodając jeszcze tekstową
-informację o zajmowanym przez pracownika stanowisku). Następnie zdefiniuj klasę `Firma`, która
-by przechowywała w tablicy spis wszystkich pracowników (możesz założyć, że liczba
-pracowników nie przekracza 100). Zdefiniuj metody dodawania nowych pracowników do firmy
-oraz wypisywania aktualnego spisu pracowników. Zastanów się, jak przy tym ostatnim zadaniu
-rozdzielić odpowiedzialności pomiędzy obie klasy.
+Utwórz projekt WprowadzDane zawierający 100 elementową tablicę klasy `Student`
+(użyj klasy Student z zadania 2). Utwórz metodę tworzącą obiekt dla każdego elementu tablicy i
+ustawiającą domyślne wartości dla niego tj. dla typu liczbowego: 0, dla typu łańcuchowego: łańcuch
+pusty ` `.
+Utwórz metody umożliwiające:
+- wprowadzanie danych studenta pod wybrany index tablicy,
+- edycję (nadpisanie danych studenta) spod wybranego indeksu,
+- usunięcie danych studenta (tj. nadpisanie elementów tablicy wartościami domyślnymi),
+- wyświetlenie obiektu o danym indeksie.
+- wyświetlenie wszystkich obiektów,
+- wyświetlenie zakresu obiektów w podanym zakresie.
 
-## **Zadanie 6.**
-Zdefiniuj klasę `Liczba`, która przechowuje w tablicy cyfry liczby dziesiętnej. Zdefiniuj operacje
-wypisywania liczby, nadawania jej wartości (w postaci parametru konstruktora będącego napisem)
-oraz mnożenia przez liczbę typu int. W przypadku gdy w czasie mnożenia okaże się, że tablica jest
-za mała, procedura mnożąca powinna kopiować jej zawartość do większej. Zdefiniuj wreszcie
-metodę `silnia`, która policzy silnię zadanej jako parametr liczby typu `int`.
+***Nieobligatoryjne (fakultatywne) zadania lun elementy zadań.**
