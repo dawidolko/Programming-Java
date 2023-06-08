@@ -2,9 +2,9 @@
 
 Witaj w repozytorium Projektów Java! To miejsce, gdzie zgromadzono zbiór różnorodnych projektów napisanych w języku Java. Repozytorium to jest dedykowane zarówno początkującym, jak i zaawansowanym programistom, którzy chcą rozwijać swoje umiejętności w programowaniu w Javie.
 
-## O projekcie
+## O projekach
 
-Ten projekt jest skoncentrowany na dostarczeniu praktycznych przykładów kodu w języku Java, które pokrywają różne obszary programowania. Znajdziesz tutaj projekty, które obejmują:
+Te projekty są skoncentrowane na dostarczeniu praktycznych przykładów kodu w języku Java, które pokrywają różne obszary programowania. Znajdziesz tutaj projekty, które obejmują:
 
 - Podstawowe zagadnienia Javy: Zrozumienie podstawowych konstrukcji języka Java, takich jak zmienne, pętle, instrukcje warunkowe, metody i klasy.
 
