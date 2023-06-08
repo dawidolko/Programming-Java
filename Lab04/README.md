@@ -1,4 +1,4 @@
-# Lab03 - Tworzenie klas i obiektów w języku Java
+# Lab04 - Tworzenie klas i obiektów w języku Java
 
 ## **Zadanie 1.**
 Utwórz projekt o nazwie DaneOsobowe zawierający dwie klasy: DaneOsobowe i Osoba zob. rys.
