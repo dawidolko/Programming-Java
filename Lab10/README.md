@@ -55,6 +55,7 @@ a[i] = i;
 W przeciwieństwie do tablic z C++ w języku Java, sprawdza czy odwołania do składowych tablicy są poprawne. Jeżeli
 nastąpi próba odwołania się do elementu z poza dozwolonego zakresu zostanie zgłoszony wyjątek
 `ArrayIndexOutOfBoundException`.
+
 Dostęp do składowych tablicy uzyskujemy za pomocą operatora indeksującego [ ].
 `nazwaTablicy[indeks_ekenetu];`
 Kopiowanie fragmentów lub całych tablic można wykonać przy użyciem pętli:
@@ -72,10 +73,15 @@ void System.arraycopy(src, srcPos, dest, destPos, n)
 ```
 gdzie:
 `src` - nazwa tablicy z której kopiujemy elementy
+
 `srcPos` - początkowy indeks od którego będą odczytywane elementy
+
 `dest` - tablica do której będą kopiowane argumenty
+
 `destPos` - początkowy indeks od którego zostaną zapisywane elementy
+
 `n` - ilość elementów do skopiowania
+
 Zatem następuje przekopiowanie skopiowanie n elementów od `src[srcPos]` do `src[srcPos + n - 1]` i zostaną one
 skopiowane na miejsce elementów od `des[destPos]` do `des[desPos + n - 1]`. Dla powyższego przykładu:
 ```
@@ -85,7 +91,7 @@ Wywołanie funkcji arraycopy dla tablicy zawierającej obiekty, kopiowane są re
 same obiekty. Taka operacja zwana jest kopiowaniem płytkim.
 Java oferuje również inne ciekawe funkcje do obsługi tablic. Zawarte są w klasie `java.util.Arrays`:
 `void sort(tab)` - sortuje tablicę stosując algorytm QuickSort,
-`void sort(tab, pocz, przedOst)` - sortuje fragment tablicy od elementu **[pocz, przedOst]* od
+`void sort(tab, pocz, przedOst)` - sortuje fragment tablicy od elementu **[pocz, przedOst]** od
 elementu o indeksie pocz włącznie do elementu przedOst bez niego.
 `nt binarSearch(tab, elem)`- zwraca indeks elementu elem w tablicy tab. Tablica musi być posortowana w
 przeciwnym razie wynik jest niezdefiniowany. W przypadku gdy element nie zostanie odnaleziony w tablicy zwracana
@@ -93,28 +99,33 @@ jest wartość – `tab.length + 1)`
 ```
 import java.util.Arrays;
 import java.util.Random;
+
 class LosowanieSortowanie {
-public static void main(String[] args) {
-Random losujLiczby = new Random();
-int [] kilkaNaturalnych ;
-tablicaNaturalnych = new int [10];
-tablicaNaturalnych[0] = 55;
-for(int i = 1; i < tablicaNaturalnych.length; i++ )
-tablicaNaturalnych[i] = losujLiczby.nextInt(101);
-Arrays.sort(tablicaNaturalnych);
-System.out.println(Arrays.binarySearch(tablicaNaturalnych, 55));
-System.out.println(Arrays.binarySearch(tablicaNaturalnych, 101));
-}
+  public static void main(String[] args) {
+    Random losujLiczby = new Random();
+    int [] kilkaNaturalnych ;
+    tablicaNaturalnych = new int [10];
+    tablicaNaturalnych[0] = 55;
+    for(int i = 1; i < tablicaNaturalnych.length; i++ )
+      tablicaNaturalnych[i] = losujLiczby.nextInt(101);
+      Arrays.sort(tablicaNaturalnych);
+      System.out.println(Arrays.binarySearch(tablicaNaturalnych, 55));
+      System.out.println(Arrays.binarySearch(tablicaNaturalnych, 101));
+    }
 }
 ```
-boolean equals(tab1, tab2) - porównuje dwie tablice (ilość elementów i wartośći)
-String toString(tab) - wyświetla tablicę
+`boolean equals(tab1, tab2)` - porównuje dwie tablice (ilość elementów i wartośći)
+`String toString(tab)` - wyświetla tablicę
+```
 System.out.print("Tablica liczb NATURALNYCH: ");
 System.out.println(Arrays.toString(kilkaNaturalnych));
-void fill(tab, wart) - przypisuje wszystkim elementom tablicy tab wartość wart
-void fill(tab, pocz, przedOst, wart) - przypisuje elementom tablicy tab wartość wart w przedziale
-[pocz, przedOst]
-Tablice wielowymiarowe
+```
+`void fill(tab, wart)` - przypisuje wszystkim elementom tablicy tab wartość wart
+`void fill(tab, pocz, przedOst, wart)` - przypisuje elementom tablicy tab wartość wart w przedziale
+**[pocz, przedOst]**
+
+### Tablice wielowymiarowe
+
 Tablicami wielowymiarowymi są tablice których elementami są tablice.
 ```
 int [][] macierz = { {1, 2, 3},{4, 5 ,6}}
@@ -124,34 +135,43 @@ szachownica[0][0] = true;
 szachownica[1][0] = false;
 //...
 class Kolor { private
-String kolor;
-public Kolor(String k) {
-kolor = k;
-}
-//...
+  String kolor;
+  public Kolor(String k) {
+  kolor = k;
+  }
+  //...
 }
 Kolor [][][] rgb = new Kolor [256][256][256];
 rgb[0][0][0] = new Kolor("black"); rgb[255]
 [255][0] = new Kolor("yellow");
 ```
-2. Kontenery
+
+## **[2.] Kontenery**
+
 Gdy zachodzi konieczność przechowywanie nieustalonej liczby obiektów lub zapewnienia określonej struktury
 elementów używa się klasy kontenerowych. Dzielą się one na dwie kategorie: kolekcje (ang. collection) oraz
 odwzorowania (tablice asocjacyjne, ang. map).
-Collection - to kontenery, których elementy podlegają określonym regułom: np. elementy listy „list” są
-przechowywane w określonej kolejności, natomiast elementy zbioru „set” nie mogą się powtarzać.
-Odwzorowania - są obiektami przechowującymi pary typu klucz – wartość. Można je traktować jak tablice, których
+`Collection` - to kontenery, których elementy podlegają określonym regułom: np. elementy listy `list` są
+przechowywane w określonej kolejności, natomiast elementy zbioru `set` nie mogą się powtarzać.
+
+`Odwzorowania` - są obiektami przechowującymi pary typu klucz – wartość. Można je traktować jak tablice, których
 elementami są zmienne wartość zaś indeksy to zmienne reprezentowane przez klucze.
+
 W celu wygodnego operowania na kontenerach tj. dodawania, usuwania, odczytywania elementów (poza odpowiednimi
 dla danego kontenera metodami) odpowiednim obiektem zwanym iteratorem. Jego działanie można przyrównać do
 wskaźnika. Iterartor "wie" jak przechodzić po elementach danego kontenera. Stąd napisany w ten sposób kod jest
 bardziej uniwersalny - można zmienić deklaracją typu kontenera bez zmiany funkcji na nim operujących. Oprócz
-uniwersalnej klasy Iterator dla kontenerów ArrayList i LinkedList dostępny jest ListIterator.
-Hierarchia klas kontenerowych
-.
+uniwersalnej klasy `Iterator` dla kontenerów `ArrayList` i `LinkedList` dostępny jest `ListIterator`.
+
+### Hierarchia klas kontenerowych
+
+<br>![cmd_gcc](images/picture1.png)
+
 Przykład aplikacji wykorzystującej kolekcję ArrayList. Typy danych w przechowywanych w kolekcji nie
 są sparametryzowane.
-Typy generyczne - parametryzowane, szablonowe
+
+### Typy generyczne - parametryzowane, szablonowe
+
 W wersji 1.5 języka Java wprowadzono sparametryzowane typy kontenerowe – tzw. typy generyczne. Do tej
 pory, aby stworzyć jakąś kolekcję obiektów należało zaimplementować kolekcję pozwalającą na przechowywania
 obiektów typu Object. Konsekwencją tego podejścia była konieczność rzutowania danego elementu danej kolekcji na
@@ -159,26 +179,40 @@ rozpatrywany typ pomimo tego, iż programista chciał przechowywać tylko i wył
 pomyłki błąd zgłaszany był podczas wykonania programu a nie w czasie kompilacji. Typy generyczne pozwalają
 sparametryzować dany typ klasy kontenerowej za pomocą odpowiedniego obiektu, dzięki czemu jest on określony i
 rzutowanie nie jest potrzebne. Podobnym rozwiązaniem są szablony w C++.
-Interfejs Collection
-boolean add(Object) - dodaje element Object do kolekcji sprawdzając czy należy on do tej kolekcji, jeśli nie
+
+### Interfejs Collection
+
+`boolean add(Object)` - dodaje element Object do kolekcji sprawdzając czy należy on do tej kolekcji, jeśli nie
 zwraca false,
-boolean addAll(Collection) - dodaje wszystkie elementy kolekcji będącej argumentem do tej na rzecz której
+
+`boolean addAll(Collection)` - dodaje wszystkie elementy kolekcji będącej argumentem do tej na rzecz której
 jest wywoływana metoda, zwraca true jeżeli dodano przynajmniej jeden elemen,
-void clear() - usuwa wszystkie elementy kolekcji,
-boolean contains(Object) - sprawdza czy dany element jest elementem kolekcji,
-boolean containsAll(Collection) - sprawdza czy wszystkie elementy kolekcji będącej parametrem są
+
+`void clear()` - usuwa wszystkie elementy kolekcji,
+
+`boolean contains(Object)` - sprawdza czy dany element jest elementem kolekcji,
+
+`boolean containsAll(Collection)` - sprawdza czy wszystkie elementy kolekcji będącej parametrem są
 również elementami kolekcji na rzecz której wywołujemy funkcję,
-boolean equals(Object) - sprawdza czy dana kolekcja jest taka sama jak
-argument, boolean isEmpty() - zwraca true jeżeli kontener nie zawiera elementów,
-boolean remove(Object) - sprawdza czy dany element jest w kontenerze, jeśli tak to go usuwa lub jeden z nich
+
+`boolean equals(Object)` - sprawdza czy dana kolekcja jest taka sama jak
+
+`argument, boolean isEmpty()` - zwraca true jeżeli kontener nie zawiera elementów,
+
+`boolean remove(Object)` - sprawdza czy dany element jest w kontenerze, jeśli tak to go usuwa lub jeden z nich
 jeśli jest ich więcej, zwraca true jeżeli udało się usunąć,
-boolean removeAll(Collection) - usuwa wszystkie elementy kontenera, które są jednocześni wskazane
+
+`boolean removeAll(Collection)` - usuwa wszystkie elementy kontenera, które są jednocześni wskazane
 poprzez argument (różnica), jeżeli usunięto przynajmniej jedną wartość to zwraca true,
-boolean retainAll(Collection) – usuwa wszystkie elementy kontenera na rzecz którego jest wywoływana
+
+`boolean retainAll(Collection)` – usuwa wszystkie elementy kontenera na rzecz którego jest wywoływana
 metoda, które nie znajdują się w kolekcji wskazywanej przez argument (część wspólna), jeżeli usunięto przynajmniej
 jedną wartość to zwraca true,
-int size() - zwraca liczbę elementów w kontenerze,
-Object[] toArray() - zwraca tablicę utworzoną z wszystkich elementów danej kolekcji.
+
+`int size()` - zwraca liczbę elementów w kontenerze,
+
+`Object[] toArray()` - zwraca tablicę utworzoną z wszystkich elementów danej kolekcji.
+
 Interfejs List
 Interfejs List poza metodami z interfejsu Collection definiuje dodatkowe metody:
 void add(int indeks, Object) - dodaje do listy obiekt na pozycji indeks,
