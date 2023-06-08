@@ -142,14 +142,14 @@ public class Silnia {
 ```
 Po uruchomieniu aplikacji:
 
-<br>![cmd_gcc](images/picture1.png)
+<br>![cmd_gcc](images/Picture1.png)
 
 **Analiza działania:**
 Podając na wejściu liczbę 5 wywołamy metodę silnia z wartością pięć. Metoda zwróci nam wartość
 parametru pomnożoną ponowne wywołanie metody silnia z parametrem o 1 mniejszym itd.
 Przebieg działania metody będzie wyglądał tak jak poniżej:
 
-<br>![cmd_gcc](images/picture2.png)
+<br>![cmd_gcc](images/Picture2.png)
 
 
 ### **Zadanie 3.2.**
