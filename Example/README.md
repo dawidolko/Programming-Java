@@ -1,5 +1,6 @@
 # Przykładowe projekty związane z językiem Java
-Witaj w moim repozytorium, gdzie znajdziesz różnorodne projekty związane z językiem Java! Tutaj zgromadziłem zestaw interesujących przykładów, które prezentują różne aspekty programowania w Javie. Od prostych aplikacji konsolowych po zaawansowane projekty, oferuję różnorodne materiały, które pomogą Ci rozwijać umiejętności programowania w Javie.
+Witaj w moim repozytorium, gdzie znajdziesz różnorodne projekty związane z językiem Java! Tutaj zgromadziłem zestaw interesujących przykładów, które prezentują różne aspekty programowania w Javie.
+Od prostych aplikacji konsolowych po zaawansowane projekty, oferuję różnorodne materiały, które pomogą Ci rozwijać umiejętności programowania w Javie.
 
 Oto kilka przykładów projektów, które znajdziesz w moim repozytorium:
 
