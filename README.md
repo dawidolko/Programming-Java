@@ -1,34 +1,34 @@
 # Programming-Java
 
-### **Język Java**
+### **Java language**
 
-## **Opis:**
-Repozytorium Język Java zawiera przykładowe projekty, kod źródłowy i materiały edukacyjne związane z programowaniem w języku Java. Java to obiektowy język programowania, który jest szeroko stosowany do tworzenia aplikacji na różne platformy. Repozytorium to ma na celu dostarczenie materiałów i przykładów dla programistów, którzy chcą nauczyć się programowania w języku Java lub poszerzyć swoją wiedzę na temat tego języka.
+## **Description:**
+The Java Language Repository contains sample projects, source code, and learning materials related to Java development. Java is an object-oriented programming language that is widely used to develop applications for various platforms. This repository is intended to provide materials and examples for developers who want to learn or expand their Java programming knowledge.
 
-## **Struktura Repozytorium:**
-/Projekty: W tym folderze znajdują się różne projekty, w których wykorzystuje się język Java. Każdy projekt posiada swój własny folder z opisem i kodem źródłowym.
+## **Repository Structure:**
+/Projects: This folder contains various projects that use Java. Each project has its own folder with description and source code.
 
-/Lab: Tutaj znajdziesz przykładowe skrypty i narzędzia programistyczne, które mogą ułatwić pracę z językiem Java.
+/Lab: Here you can find example scripts and development tools that can help you work with Java.
 
-/Courses: Ten folder zawiera różnego rodzaju materiały edukacyjne, takie jak podręczniki, tutoriale i artykuły związane z językiem Java.
+/Courses: This folder contains various kinds of educational materials, such as manuals, tutorials, and articles related to Java.
 
-### **Jak zacząć:**
+### **How ​​to start:**
 
-Sklonuj repozytorium na swój lokalny komputer:
+Clone the repository to your local computer:
 ```
 git clone https://github.com/dawidolko/Programming-Java.git
 ```
-Przeglądaj dostępne projekty, skrypty i materiały w odpowiednich folderach.
+Browse available projects, scripts and materials in their respective folders.
 
-Eksperymentuj z kodem źródłowym, analizuj implementacje i ucz się programowania w języku Java na podstawie dostępnych przykładów.
+Experiment with the source code, analyze implementations and learn Java programming from the available examples.
 
-## **Wymagania systemowe**
-Aby rozpocząć programowanie w języku Java, będziesz potrzebować Java Development Kit (JDK) oraz środowiska programistycznego (IDE), takiego jak Eclipse, IntelliJ IDEA lub NetBeans. Upewnij się, że masz odpowiednie narzędzia zainstalowane przed rozpoczęciem pracy.
+## **System requirements**
+To get started with Java development, you will need a Java Development Kit (JDK) and a development environment (IDE) such as Eclipse, IntelliJ IDEA, or NetBeans. Make sure you have the proper tools installed before starting work.
 
-## **Wkład i Wsparcie**
-Jeśli chcesz przyczynić się do tego repozytorium, możesz zgłaszać problemy, tworzyć pull requesty lub udostępniać swoje własne projekty i przykłady związane z programowaniem w języku Java. Wszelkie wkłady są mile widziane!
+## **Contributions and Support**
+If you want to contribute to this repository, you can report issues, create pull requests, or share your own Java development projects and examples. Any contributions are welcome!
 
-Jeśli masz pytania lub potrzebujesz pomocy, możesz skontaktować się ze mną poprzez e-mail lub przez platformę GitHub.
+If you have questions or need help, you can contact me via email or GitHub.
 
-## **Licencja**
-Ten projekt jest objęty licencją MIT. Zapraszam do zapoznania się z pełnym tekstem licencji przed korzystaniem z tego repozytorium.
+## **License**
+This project is licensed under the MIT license. Please read the full license text before using this repository.
