@@ -1,0 +1,21 @@
+Alisson Becker,31,bramkarz,1
+Joe Gomez,26,obrońca,2
+Fabinho,29,pomocnik,3
+Virgil van Dijk,32,obrońca,4
+Ibrahima Konate,24,obrońca,5
+Thiago Alcantara,32,pomocnik,6
+Mohamed Salah,31,napastnik,11
+Adrian,36,bramkarz,13
+Jordan Henderson,33,pomocnik,14
+Curtis Jones,22,pomocnik,17
+Cody Gakpo,24,napastnik,18
+Harvey Elliot,20,pomocnik,19
+Diogo Jota,27,napastnik,20
+Konstantinos Tsimikas,27,obrońca,21
+Luis Diaz,26,napastnik,23
+Andrew Robertson,29,obrońca,27
+Darwin Nunez,24,napastnik,28
+Fabio Carvalho,21,pomocnik,29
+Joel Matip,32,obrońca,32
+Nathaniel Phillips,26,obrońca,47
+Trent Alexander-Arnold,25,obrońca,66
