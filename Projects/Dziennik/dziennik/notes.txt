@@ -1,0 +1,4 @@
+1;Brak obuwia na zmiane,Spał na lekcji
+3;Wandalizm
+4;Alkoholizacja w toalecie
+6;Palenie papierosow

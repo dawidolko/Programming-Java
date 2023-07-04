@@ -1,0 +1,11 @@
+1;Dawid;Nowak;uczen;uczdn;dnowak
+2;Mateusz;Pawelczak;uczen;uczmp;mpawelczak
+3;Karolina;Moczek;uczen;uczkm;kmoczek
+4;Jan;Rak;uczen;uczjr;jrak
+5;Patryk;Kowalik;uczen;uczpk;pkowalik
+6;Karol;Sosna;uczen;uczks;ksosna
+7;Dominika;Kuka;uczen;uczdk;dkuka
+8;Jacek;Piekarski;nauczyciel;naujp;jpiekarski
+9;Maria;Kowalska;nauczyciel;naumk;mkowalska
+10;Marian;Pies;nauczyciel;naump;mpies
+11;Grzegorz;Sikora;dyrekcja;dyrgs;gsikora
