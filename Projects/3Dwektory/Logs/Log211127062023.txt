@@ -1,0 +1,12 @@
+Podaj współrzędną X: Podaj współrzędną Y: Podaj współrzędną Z: 
+-- Czy chcesz dodac kolejny wektor? 
+1. Tak. 
+2. Nie. 
+-- Wybor: 
+Podaj współrzędną X: Podaj współrzędną Y: Podaj współrzędną Z: 
+-- Czy chcesz dodac kolejny wektor? 
+1. Tak. 
+2. Nie. 
+-- Wybor: 
+Suma wektorów: [Vector [ID: 0, X: 2.0, Y: 3.0, Z: 4.0], Vector [ID: 1, X: 3.0, Y: 2.0, Z: 4.0]] jest równa: 
+Wektor : X: 5.0 Y: 5.0 Z: 8.0

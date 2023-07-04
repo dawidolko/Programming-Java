@@ -1,0 +1,14 @@
+--- Podaj id wektora, ktorego chcesz pomnozyc: 
+
+-- Czy chcesz pomnozyc kolejny wektor? 
+1. Tak. 
+2. Nie. 
+-- Wybor: 
+--- Podaj id wektora, ktorego chcesz pomnozyc: 
+
+-- Czy chcesz pomnozyc kolejny wektor? 
+1. Tak. 
+2. Nie. 
+-- Wybor: 
+Iloczyn sklarany wektorow: [Vector [ID: 1, X: 16.0, Y: 53.0, Z: -85.0], Vector [ID: 2, X: 83.0, Y: 79.0, Z: 95.0]] jest rowny:  1328.0 +  4187.0 +  -8075.0
+Wynik :  -2560.0

@@ -1,0 +1,2 @@
+Suma wektorów: [Vector [ID: 0, X: 4.0, Y: 5.0, Z: 1.0], Vector [ID: 1, X: 6.0, Y: 8.0, Z: 2.0]] jest równa: 
+Wektor : X: 10.0 Y: 13.0 Z: 3.0
