@@ -20,58 +20,58 @@ redirect_to: java.dawidolko.pl
 
 <br>
 
-**[Lab02](LAB02/README.md) - Typy zmiennych i instrukcje sterujące w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB02)
+**[Lab02](Lab02/README.md) - Typy zmiennych i instrukcje sterujące w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab02)
 
 <br>
 
-**[Lab03](LAB03/README.md) - Operatory, rekurencja, typ łańcuchowy w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB03)
+**[Lab03](Lab03/README.md) - Operatory, rekurencja, typ łańcuchowy w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab03)
 
 <br>
 
-**[Lab04](LAB04/README.md) - Tworzenie klas i obiektów w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB04)
+**[Lab04](Lab04/README.md) - Tworzenie klas i obiektów w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab04)
 
 <br>
 
-**[Lab05](LAB05/README.md) - Hermetyzacja w języku Java*
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB05)
+**[Lab05](Lab05/README.md) - Hermetyzacja w języku Java*
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab05)
 
 <br>
 
-**[Lab06](LAB06/README.md) - Składowe statyczne klasy w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB06)
+**[Lab06](Lab06/README.md) - Składowe statyczne klasy w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab06)
 
 <br>
 
-**[Lab07](LAB07/README.md) -  Dziedziczenie i polimorfizm w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB07)
+**[Lab07](Lab07/README.md) -  Dziedziczenie i polimorfizm w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab07)
 
 <br>
 
-**[Lab08](LAB08/README.md) - Klasy i metody abstrakcyjne oraz interfejsy w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB08)
+**[Lab08](Lab08/README.md) - Klasy i metody abstrakcyjne oraz interfejsy w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab08)
 
 <br>
 
-**[Lab09](LAB09/README.md) - Zastosowanie typów generycznych**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB09)
+**[Lab09](Lab09/README.md) - Zastosowanie typów generycznych**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab09)
 
 <br>
 
-**[Lab10](LAB10/README.md) - Kolekcje w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB10)
+**[Lab10](Lab10/README.md) - Kolekcje w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab10)
 
 <br>
 
-**[Lab11](LAB11/README.md) - Obsługa i rzucanie wyjątków w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB11)
+**[Lab11](Lab11/README.md) - Obsługa i rzucanie wyjątków w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab11)
 
 <br>
 
-**[Lab12](LAB12/README.md) - Obsługa strumieni w języku Java**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB12)
+**[Lab12](Lab12/README.md) - Obsługa strumieni w języku Java**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab12)
 
 <br>
 
@@ -84,25 +84,25 @@ redirect_to: java.dawidolko.pl
  **[Treść zadań](Kolokwium/README.md) - Kolokwium 1**
 
 - **[Treść zadań](Kolokwium/exam1/README.md) - Kolokwium 1 Grupa 1**
-  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1/kolokwium1/kolokwium/src)
 
 - **[Treść zadań](Kolokwium/exam1v2//README.md) - Kolokwium 1 Grupa 2**
-  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1v2)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1v2/kolokwium1v2/kolokwium1/src)
  
  <br>
 
   **[Treść zadań](Kolokwium/README.md) - Kolokwium 2**
 
 - **[Treść zadań](Kolokwium/exam2/README.md) - Kolokwium 2 Grupa 1**
-  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2/kolokwium%202/kolokwium2/src)
 
 - **[Treść zadań](Kolokwium/exam2v2/README.md) - Kolokwium 2 Grupa 2**
-  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2v2)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2v2/kolokwium2v2/kolokwium2/src)
  
  <br>
 
  **[Treść zadań](Kolokwium/exam3/README.md) - Kolokwium 3**
-  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam3)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam3/Kolokwium3/untitled/src)
 
 <br> 
 
