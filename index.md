@@ -116,14 +116,14 @@ redirect_to: java.dawidolko.pl
 
 **[Co to kursy?](Courses/README.md) - Definicja i zagadnienia**
 - **[Kurs 1](https://github.com/dawidolko/Programming-Java/tree/master/Courses/Kurs%201)**
-  - [Opis kursu](Courses/Kurs1/README.md)
+  - [Opis kursu](Courses/Course1/README.md)
 
 <br>
   
 - **[Kurs 2](https://github.com/dawidolko/Programming-Java/tree/master/Courses/Kurs%202)**
-  - [Opis kursu](Courses/Kurs2/README.md)
+  - [Opis kursu](Courses/Course2/README.md)
 
 <br>
   
 - **[Kurs 3](https://github.com/dawidolko/Programming-Java/tree/master/Courses/Kurs%203)**
-  - [Opis kursu](Courses/Kurs3/README.md)
+  - [Opis kursu](Courses/Course3/README.md)
