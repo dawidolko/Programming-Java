@@ -35,7 +35,7 @@ redirect_to: java.dawidolko.pl
 
 <br>
 
-**[Lab05](Lab05/README.md) - Hermetyzacja w języku Java*
+**[Lab05](Lab05/README.md) - Hermetyzacja w języku Java**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Lab05)
 
 <br>
