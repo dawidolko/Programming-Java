@@ -1,15 +1,15 @@
 # **Kolokwium I Gr. B**
 
-## **Zadanie 1.**  `(5 pkt.)`
+## **[Zadanie 1.](https://github.com/dawidolko/Programming-Java/blob/master/Kolokwium/exam1v2/kolokwium1v2/kolokwium1/src/Zadanie1/Main.java)**  `(5 pkt.)`
 
 Napisz program w języku Java, który deklaruje tablicę 20-elementową liczb typu float i losuje do niej liczby z przedziału 1-100. Następnie wprowadź z konsoli liczbę n typu double. Następnie z wylosowanej tablicy oblicz sumę liczb o indeksach nieparzystych i większych od liczby n. Wyświetl sumę w konsoli. Przetestuj program trzy razy go wywołując, wyniki opisz w komentarzu pod kodem.
 
-## **Zadanie 2.** `(5 pkt.)`
+## **[Zadanie 2.](https://github.com/dawidolko/Programming-Java/blob/master/Kolokwium/exam1v2/kolokwium1v2/kolokwium1/src/Zadanie2/Main.java)** `(5 pkt.)`
 
 Napisz program, który deklaruje tablicę 10-elementową typu dobule, do której następnie użytkownik wprowadza dane. Napisz funkcję, która wylicza wartość sumy liczb podzielnych przez 5 i dodatkowo większych od średniej wartości liczb wprowadzonych przez użytkownika. 
 Przetestuj program dwa razy go wywołując, wyniki opisz w komentarzu pod kodem.
 
-## **Zadanie 3.**  `(6pkt)`
+## **[Zadanie 3.](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1v2/kolokwium1v2/kolokwium1/src/Zadanie3)**  `(6pkt)`
 
 A) Utwórz klasę Osoba zawierającą następujące pola:
 
@@ -31,7 +31,7 @@ B) Dokonaj hermetyzacji pól klasy, tworząc metody udostępniające pola, zwró
 
 C) Przetestuj klasę, tworząc przynajmniej trzy jej obiekty. Należy utworzyć obiekty przy użyciu wszystkich trzech przeciążeń konstruktora i uzupełnić je danymi. Jeśli konstruktor nie ustawia jakiegoś pola klasy ustaw te dane odpowiednią metodą „set”. Wyświetl dane wszystkich utworzonych obiektów.  Wyniki wypisz w komentarzu pod kodem.
 
-## **Zadanie 4.** `(4 pkt.)`
+## **[Zadanie 4.](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1v2/kolokwium1v2/kolokwium1/src/Zadanie4)** `(4 pkt.)`
 
 A) Utwórz klasę Pracownik, dziedziczącą po klasie Osoba. Klasa zawiera dodatkowo dwa pola: 
 
