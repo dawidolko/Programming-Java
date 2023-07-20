@@ -1,11 +1,11 @@
 # **Kolokwium nr 2**
 
 
-## **Zadanie 1.** `(2 pkt).`
+## **[Zadanie 1.](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2v2/kolokwium2v2/kolokwium2/src/Zadanie1)** `(2 pkt).`
 
 Utwórz klasę ValueNegativeException, która będzie wyrzucać wyjątki w przypadku gdy ustawiona lub wprowadzona liczba jest mniejsza od zera (a powinna być większa od zera). Przetestuj działanie klasy.
 
-## **Zadanie 2.**
+## **[Zadanie 2.](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2v2/kolokwium2v2/kolokwium2/src/Zadanie2)**
 
 Utwórz klasę abstrakcyjną `Zwierze`. 
 - Klasa posiada odpowiednie pola: nazwa: `String`,  gatunek: `String`, wiek: `int`.
@@ -36,5 +36,5 @@ E) W klasie Main utwórz metody statyczne umożliwiające wprowadzanie danych zw
 
 F) W metodzie main utwórz dodatkowo 10-elementową tablicę przechowującą różne zwierzęta. Przejdź tablicę przy użyciu pętli i wywołaj dla każdego elementu tablicy metodę  `PokazInformacje()`.  `(2 pkt)`
 
-## **Zadanie 3.** `(2 pkt)`
+## **[Zadanie 3.](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2v2/kolokwium2v2/kolokwium2/src/Zadanie3)** `(2 pkt)`
 Utwórz klasę generyczną o nazwie `Tuple3`, implementującą krotkę trzywartościową. Utwórz odpowiedni konstruktor ustawiający pola krotki oraz metody pobierające i ustawiające te pola. 
