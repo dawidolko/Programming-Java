@@ -1,0 +1,3 @@
+ID: 1, Imię: Dawid
+Player1: Dawid(ID: 1) Player2: Komputer 
+Wygrał Player 1
