@@ -1,3 +1,4 @@
+# Author: https://github.com/lukaszsolecki
 # Aquarium Simulation in Java
 
 Welcome to the Aquarium Simulation project! This Java-based repository brings the fascinating underwater world to life through a realistic aquarium simulation. Whether you are a Java enthusiast or a nature lover, this project offers a unique opportunity to dive into the captivating realm of aquatic life.
