@@ -22,7 +22,7 @@ User Interface: The calculator will feature an intuitive and user-friendly inter
 ## How to Get Started
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/yourusername/Scientific-Calculator.git
+git clone https://github.com/dawidolko/Programming-Java/Projects/KalkulatorNaukowy.git
 ```
 Set up your Java development environment, including JDK (Java Development Kit) and an IDE (Integrated Development Environment) such as Eclipse or IntelliJ.
 
