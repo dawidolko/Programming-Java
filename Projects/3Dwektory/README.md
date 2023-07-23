@@ -1,3 +1,4 @@
+# Author: https://github.com/g00staw
 # 3D Vectors in Java
 
 Welcome to the 3D Vectors in Java project! This repository is a Java-based exploration of three-dimensional vectors. Whether you are a Java enthusiast or just starting out, this project provides an excellent opportunity to dive into the world of 3D vectors and their practical applications.
