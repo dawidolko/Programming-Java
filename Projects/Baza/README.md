@@ -20,7 +20,7 @@ Transaction Management: The project provides support for managing transactions t
 ## How to Get Started
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/yourusername/Java-Database-Project.git
+git clone https://github.com/dawidolko/Programming-Java/Projects/Baza.git
 ```
 Familiarize yourself with the existing codebase and the overall structure of the database application.
 
