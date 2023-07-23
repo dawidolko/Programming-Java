@@ -1,3 +1,5 @@
+# Author: https://github.com/PiotrSmola
+
 # Scientific Library Management System in Java
 Welcome to the Scientific Library Management System project in Java! This repository is dedicated to creating an advanced system for managing scientific literature and resources. Whether you're a researcher, student, or librarian, this application will provide easy access to a vast collection of scientific materials.
 
