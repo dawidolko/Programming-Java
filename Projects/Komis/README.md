@@ -22,7 +22,7 @@ Reporting: The application will generate reports on submission statistics, revie
 ## How to Get Started
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/yourusername/Scientific-Committee-Management.git
+git clone https://github.com/dawidolko/Programming-Java/Projects/Komis.git
 ```
 Set up your Java development environment, including JDK (Java Development Kit) and an IDE (Integrated Development Environment) such as Eclipse or IntelliJ.
 
