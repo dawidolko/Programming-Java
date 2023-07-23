@@ -1,3 +1,4 @@
+# Author: https://github.com/Splitu
 # Science Club Management System in Java
 Welcome to the Science Club Management System project in Java! This repository is dedicated to creating an efficient and organized system for managing a science club. Whether you're a student, teacher, or club organizer, this application will help streamline club activities and promote scientific exploration.
 
