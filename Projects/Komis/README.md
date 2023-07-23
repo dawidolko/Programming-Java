@@ -1,3 +1,4 @@
+# Author: https://github.com/SzymekRzepka
 # Scientific Committee Management System in Java
 Welcome to the Scientific Committee Management System project in Java! This repository is dedicated to creating an efficient and effective system for managing scientific committees. Whether you're a researcher, conference organizer, or committee member, this application will streamline the review process and enhance collaboration.
 
