@@ -22,7 +22,7 @@ Notifications: Users will receive notifications about newly added publications o
 ## How to Get Started
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/yourusername/Scientific-Library-Management.git
+git clone https://github.com/dawidolko/Programming-Java/Projects/Library.git
 ```
 Set up your Java development environment, including JDK (Java Development Kit) and an IDE (Integrated Development Environment) such as Eclipse or IntelliJ.
 
