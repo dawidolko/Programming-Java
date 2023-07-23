@@ -1,3 +1,4 @@
+# Author: https://github.com/Matias014
 # Java Shoe Store Management System
 Welcome to the Java Shoe Store Management System project! This repository aims to develop a comprehensive and efficient application for managing all aspects of a shoe store. Whether you run a small boutique or a large footwear retail chain, this system will help you streamline inventory, sales, customer interactions, and more.
 
