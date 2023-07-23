@@ -1,3 +1,4 @@
+# Author: https://github.com/mr-gino
 # Java Diary Application
 
 Welcome to the Java Diary Application project! This repository is dedicated to building a versatile and user-friendly diary application in Java. Whether you want to keep a personal journal, track daily events, or organize your thoughts, this project provides a convenient digital platform for all your writing needs.
