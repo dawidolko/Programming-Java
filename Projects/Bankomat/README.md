@@ -1,3 +1,4 @@
+# Author: https://github.com/tomasz0tarala
 # Bank ATM Simulation in Java
 
 Welcome to the Bank ATM Simulation project! This Java-based repository offers an immersive and realistic simulation of a bank ATM system. Whether you are a Java enthusiast or interested in finance, this project provides an excellent opportunity to delve into the world of banking and ATM operations.
