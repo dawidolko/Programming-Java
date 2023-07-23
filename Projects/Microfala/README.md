@@ -1,3 +1,4 @@
+# Author: https://github.com/MaciQ1
 # Scientific Microwave Oven Simulation in Java
 Welcome to the Scientific Microwave Oven Simulation project in Java! This repository is dedicated to creating a sophisticated simulation of a microwave oven that can be used for scientific research and experimentation. Whether you're a physicist, engineer, or cooking enthusiast, this application will provide valuable insights into microwave heating processes.
 
