@@ -26,7 +26,7 @@ The Java Diary Application project aims to create a modern and feature-rich digi
 
 1. Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/yourusername/Java-Diary-Application.git
+git clone https://github.com/dawidolko/Programming-Java/Projects/Dziennik.git
 ```
 
 2. Familiarize yourself with the existing codebase and the overall structure of the diary application.
