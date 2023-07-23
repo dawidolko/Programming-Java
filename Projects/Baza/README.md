@@ -1,42 +1,43 @@
-# Java ATM Simulator
-
-Welcome to the Java ATM Simulator project! This repository is dedicated to building a realistic ATM simulation in Java. Whether you're a Java enthusiast or interested in understanding banking systems, this project offers an interactive way to explore the functionalities of an Automated Teller Machine (ATM).
+# Java Database Project
+Welcome to the Java Database Project! This repository is dedicated to building a robust and efficient database application in Java. With this project, you can create, manage, and manipulate data with ease.
 
 ## Description
-The Java ATM Simulator project aims to create a user-friendly and feature-rich simulation of an ATM. As a virtual ATM, users will be able to perform typical banking operations, such as withdrawing cash, checking account balances, transferring funds, and managing their accounts. This project will provide a safe and educational environment for users to familiarize themselves with ATM operations.
+The Java Database Project aims to provide a comprehensive solution for working with databases in Java. It offers functionalities to connect to different database management systems (DBMS) such as MySQL, PostgreSQL, SQLite, and more. This project provides a user-friendly interface to interact with databases, making data storage and retrieval seamless and efficient.
 
 ## Key Features
-User Authentication: Implement a secure login system where users can input their account credentials and PIN to access their accounts.
+Database Connectivity: The project offers built-in drivers and APIs to connect to various DBMS.
 
-Account Management: Allow users to view their account balances, transaction history, and update their account information.
+Data Manipulation: Users can perform CRUD operations (Create, Read, Update, Delete) on database records.
 
-Cash Withdrawal: Enable users to withdraw cash from their accounts, considering available balance and denominations.
+Query Execution: The project supports executing custom SQL queries for complex data retrieval.
 
-Fund Transfers: Implement a fund transfer feature, allowing users to transfer money between their own accounts or to other beneficiaries.
+Schema Management: Easily create, alter, and manage database schemas.
 
-Receipt Generation: Provide users with transaction receipts for successful operations.
+Data Import and Export: Users can import data from external sources and export data in various formats.
 
-Error Handling: Create robust error handling mechanisms to address invalid inputs and ensure the smooth functioning of the ATM.
+Transaction Management: The project provides support for managing transactions to ensure data integrity.
 
 ## How to Get Started
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/dawidolko/Programming-Java/Projects/Baza.git
+git clone https://github.com/yourusername/Java-Database-Project.git
 ```
-Study the existing codebase to understand the structure of the ATM simulator and the implemented functionalities.
+Familiarize yourself with the existing codebase and the overall structure of the database application.
 
-Begin by building the user authentication system, followed by account management and cash withdrawal functionalities.
+Configure the project to work with your preferred database management system.
 
-Test the simulation thoroughly, and make improvements as needed to enhance user experience and security.
+Start building functionalities for connecting to the database, performing CRUD operations, and executing queries.
 
 ## System Requirements
 JDK (Java Development Kit) installed on your machine.
 
 An Integrated Development Environment (IDE) such as Eclipse, IntelliJ, or NetBeans for a seamless coding experience.
 
+The database management system you want to work with (e.g., MySQL, PostgreSQL) installed and properly configured.
+
 ## Contributions and Support
-Contributions to the Java ATM Simulator project are highly encouraged. If you have ideas for adding new features or optimizing existing code, feel free to open a pull request.
+Contributions to the Java Database Project are highly appreciated. If you have ideas for improving the application or want to add new features, feel free to open a pull request.
 
 If you encounter any issues or have questions, please don't hesitate to reach out via email or GitHub.
 
-Get ready to experience the convenience and functionalities of an ATM right from your computer through this Java ATM Simulator! Happy coding and happy banking!
+Empower your Java applications with the Java Database Project. Simplify data management, enhance efficiency, and streamline data operations. Happy coding!
