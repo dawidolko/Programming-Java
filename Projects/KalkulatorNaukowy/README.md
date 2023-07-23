@@ -1,3 +1,4 @@
+Author: https://github.com/faustyna77
 # Scientific Calculator in Java
 Welcome to the Scientific Calculator project in Java! This repository is dedicated to developing a powerful and versatile scientific calculator application. With this calculator, users can perform various complex mathematical operations, making it an essential tool for students, scientists, and anyone dealing with advanced calculations.
 
