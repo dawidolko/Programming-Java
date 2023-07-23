@@ -21,7 +21,7 @@ Error Handling: Implement robust error handling to handle edge cases and ensure 
 ## How to Get Started
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/yourusername/Bank-ATM-Simulation-Java.git
+git clone https://github.com/dawidolko/Programming-Java/Projects/Bankomat.git
 ```
 Familiarize yourself with the existing codebase and the design of the ATM system.
 
