@@ -1,3 +1,4 @@
+# Author: https://github.com/mAksymIliaN-przPek
 # Java Tic Tac Toe Game
 Welcome to the Java Tic Tac Toe Game project! This repository is dedicated to developing a classic Tic Tac Toe game implementation in Java. Get ready for some strategic fun as you play against an AI opponent or challenge your friends to see who can claim victory in this timeless game.
 
