@@ -1,3 +1,4 @@
+# Author: https://github.com/BarWozn40
 # Java Store Management System
 Welcome to the Java Store Management System project! This repository is dedicated to creating a comprehensive and efficient store management system. Whether you're a store owner, manager, or employee, this application will streamline various store operations and enhance the overall shopping experience.
 
