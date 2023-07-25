@@ -21,8 +21,8 @@ public class Main {
      Class.forName("org.sqlite.JDBC");
      c = DriverManager.getConnection("jdbc:sqlite:test.db");
    } catch ( Exception e ) {
-   System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-   System.exit(0);
+      System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+      System.exit(0);
    }
    System.out.println("Opened database successfully");
    }
@@ -62,8 +62,8 @@ następująca:
    stmt.close();
    c.close();
    } catch ( Exception e ) {
-   System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-   System.exit(0);
+    System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+    System.exit(0);
    }
    System.out.println("Table created successfully");
  }
@@ -102,8 +102,8 @@ wyglądać następująco:
    c.commit();
    c.close();
    } catch ( Exception e ) {
-   System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-   System.exit(0);
+    System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+    System.exit(0);
    }
    System.out.println("Records created successfully");
  }
@@ -140,8 +140,8 @@ Kolejna wersja programu demonstruje odczyt danych
      stmt.close();
      c.close();
      } catch ( Exception e ) {
-     System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-     System.exit(0);
+       System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+       System.exit(0);
      }
      System.out.println("Operation done successfully");
  }
@@ -183,8 +183,8 @@ Kolejna wersja programu to aktualizacja danych:
      stmt.close();
      c.close();
      } catch ( Exception e ) {
-     System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-     System.exit(0);
+       System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+       System.exit(0);
      }
      System.out.println("Operation done successfully");
  }
@@ -225,8 +225,8 @@ Wersja programu demonstrująca usunięcie wiersza z tablicy.
      stmt.close();
      c.close();
      } catch ( Exception e ) {
-     System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-     System.exit(0);
+       System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+       System.exit(0);
    }
    System.out.println("Operation done successfully");
  }
@@ -234,7 +234,8 @@ Wersja programu demonstrująca usunięcie wiersza z tablicy.
 ## Zadanie
 Na podstawie powyższych przykładów, należy stworzyć program z następującymi funkcjami:
 
-1. Funkcja tworząca tabelę z listą obecności studentów na zajęciach on line. Tabela powinna 
+### [Zadanie 1.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab5/zadania/src/zadanie1.java)
+Funkcja tworząca tabelę z listą obecności studentów na zajęciach on line. Tabela powinna 
 obejmować:
 a. Prowadzącego
 b. Nazwę przedmiotu
@@ -245,7 +246,9 @@ f. Czas zalogowania
 g. Czas wylogowania
 h. Długość czasu spędzonego na sesji.
 
-2. Funkcję dodającą studenta do listy obecności. Podczas dodawania powinny być uzupełnione 
+### [Zadanie 2.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab5/zadania/src) 
+Funkcję dodającą studenta do listy obecności. Podczas dodawania powinny być uzupełnione 
 dane dotyczące obecności
 
-3. Funkcję wyświetlającą obecności wszystkich studentów na zajęciach
+### [Zadanie 3.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab5/zadania/src) 
+Funkcję wyświetlającą obecności wszystkich studentów na zajęciach
