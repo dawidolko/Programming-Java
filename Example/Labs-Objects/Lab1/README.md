@@ -221,7 +221,7 @@ public class JavaStringExample {
 
 • **public** – dostęp w całym projekcie
 
-<br>[labo1](Example/Labs-Objects/Lab1/labo1.png)
+<br>[labo1](labo1.png)
 
 ## OPERATOR THIS
 Słowo kluczowe this używane jest do odwoływania się do bieżącego obiektu wewnątrz metody lub 
