@@ -348,21 +348,22 @@ public class Main {
 ```
 
 ## Zadania: 
-1. Napisz metodę, która zwróci twoje imię oraz aktualny wiek. 
-
-2. Napisz metodę, która jako argument przyjmuje 2 liczby i wypisuje ich sumę, różnicę i iloczyn. 
+### **[Zadanie 1.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab1/zadania/src/zadanie1.java)** 
+Napisz metodę, która zwróci twoje imię oraz aktualny wiek. 
+### **[Zadanie 2.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab1/zadania/src/zadanie2.java)
+Napisz metodę, która jako argument przyjmuje 2 liczby i wypisuje ich sumę, różnicę i iloczyn. 
 Argumenty przekazywane do metody są liczbami wprowadzanymi przez użytkownika z klawiatury. 
-
-3. Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest parzysta. 
-
-4. Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest podzielna przez 
+### **[Zadanie 3.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab1/zadania/src/zadanie3.java)
+Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest parzysta. 
+### **[Zadanie 4.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab1/zadania/src/zadanie4.java)
+Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest podzielna przez 
 3 i przez 5. 
-
-5. Napisz metodę, która jako argument przyjmuje liczbę i zwraca go podniesionego do 3 potęgi. 
-
-6. Napisz metodę, która jako argument przyjmuje liczbę i zwraca jej pierwiastek kwadratowy. 
-
-7. Napisz metodę, która jako argument przyjmie trzy liczby. Metoda powinna zwrócić true jeśli 
+### **[Zadanie 5.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab1/zadania/src/zadanie5.java)
+Napisz metodę, która jako argument przyjmuje liczbę i zwraca go podniesionego do 3 potęgi. 
+### **[Zadanie 6.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab1/zadania/src/zadanie6.java)
+Napisz metodę, która jako argument przyjmuje liczbę i zwraca jej pierwiastek kwadratowy. 
+### **[Zadanie 7.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab1/zadania/src/zadanie7.java)
+Napisz metodę, która jako argument przyjmie trzy liczby. Metoda powinna zwrócić true jeśli 
 z odcinków o długości przekazanych w argumentach można zbudować trójkąt prostokątny. 
-Argumenty przekazywane do metody są liczbami losowymi z przedziału <a,b> a i b wczytywane są
+Argumenty przekazywane do metody są liczbami losowymi z przedziału `<a,b>` a i b wczytywane są
 przez użytkownika z klawiatury.
