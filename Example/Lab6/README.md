@@ -6,7 +6,7 @@ dziedziczenia ma klasę java.lang.Throwable. Instancje, które w swojej hierarch
 klasę mogą zostać „rzucone” (ang. throw) przerywając standardowe wykonanie programu. 
 
 Hierarchia wyjątków w Javie 
-<br>![lab6](img/lab6v1)
+<br>![lab6](img/lab6v1.png)
 
 Klasa Throwable jest klasą główną w hierarchii i dzieli się na Error oraz Exception. 
 
