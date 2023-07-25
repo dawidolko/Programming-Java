@@ -28,7 +28,7 @@ To get started with the course, follow these steps:
 Clone the repository to your local machine using the following command:
 
 ```
-git clone https://github.com/your-username/java-gui-course.git
+git clone https://github.com/dawidolko/Programming-Java/JavaGUI/Course.git
 ```
 Install Java Development Kit (JDK) if you haven't already. The course is based on JDK 11 or newer.
 
