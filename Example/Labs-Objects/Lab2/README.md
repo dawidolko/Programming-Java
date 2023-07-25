@@ -7,7 +7,7 @@ Jest to relacja "całość – część" ( B "zawiera" A). Np. obiekty typu Poja
 Rozmiar, Koła, Silnik itd.. Kompozycję uzyskujemy poprzez definiowanie w nowej klasie pól, które są 
 obiektami istniejących klas.
 
-<br>[labo2](img/labo2v1)
+<br>[labo2](img/labo2v1.png)
 ```
 package PO_UR.Lab06.Kompozycja;
 public class Osoba {
