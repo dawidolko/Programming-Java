@@ -1,7 +1,7 @@
 # PROGRAMOWANIE OBIEKTOWE JAVA – LABORATORIUM
 
 Narzędzia programistyczne: **Eclipse** vs **IntelliJ**
-<br>![lab1](Example/img/lab1v1.png)
+<br>![lab1](img/lab1v1.png)
 
 ## Pierwszy projekt 
 
