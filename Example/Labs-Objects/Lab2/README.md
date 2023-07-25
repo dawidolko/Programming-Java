@@ -8,6 +8,7 @@ Rozmiar, Koła, Silnik itd.. Kompozycję uzyskujemy poprzez definiowanie w nowej
 obiektami istniejących klas.
 
 <br>[labo2](img/labo2v1.png)
+
 ```
 package PO_UR.Lab06.Kompozycja;
 public class Osoba {
