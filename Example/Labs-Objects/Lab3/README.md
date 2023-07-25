@@ -26,7 +26,7 @@ abstract class Example
  
  public void Message() // zwykła metoda 
  {
- System.out.println("Hello World!");
+  System.out.println("Hello World!");
  } 
 }
 ```
@@ -61,11 +61,11 @@ Figura{
  public double a; 
  public double Pole() 
  { 
- return a*a; 
+  return a*a; 
  } 
  public double Obwod() 
  { 
- return 4*a; 
+  return 4*a; 
  } 
 }
 ```
@@ -77,11 +77,11 @@ Figura{
  public double a, b; 
  public double Pole() 
  { 
- return a*b; 
+  return a*b; 
  } 
  public double Obwod() 
  { 
- return 2*a + 2*b; 
+  return 2*a + 2*b; 
  } 
 }
 ```
@@ -90,15 +90,15 @@ Użycie klasy abstrakcyjnej i klas dziedziczących jej składowe:
 package KlasyAbstrakcyjne; 
 public class FiguraTest { 
  public static void main(String[] args) { 
- Kwadrat kw1 = new Kwadrat(); 
- kw1.a = 10; 
- System.out.println("Pole kwadrat = " + kw1.Pole()); 
- System.out.println("Obwód kwadrat = " + kw1.Obwod()); 
- Prostokat prostokat1 = new Prostokat(); 
- prostokat1.a = 5; 
- prostokat1.b = 2; 
- System.out.println("Pole prostokąt = " + prostokat1.Pole()); 
- System.out.println("Obwód prostokąt = " + prostokat1.Obwod()); 
+  Kwadrat kw1 = new Kwadrat(); 
+  kw1.a = 10; 
+  System.out.println("Pole kwadrat = " + kw1.Pole()); 
+  System.out.println("Obwód kwadrat = " + kw1.Obwod()); 
+  Prostokat prostokat1 = new Prostokat(); 
+  prostokat1.a = 5; 
+  prostokat1.b = 2; 
+  System.out.println("Pole prostokąt = " + prostokat1.Pole()); 
+  System.out.println("Obwód prostokąt = " + prostokat1.Obwod()); 
  } 
 }
 ```
@@ -153,16 +153,16 @@ Napiszmy więc klasę Kwadrat i wprowadźmy do niej odpowiednie wzory:
 public class Kwadrat implements FiguraGeometryczna { 
  private double a; // długość boku / podstawy 
  public void setA(double a) { 
- this.a = a; 
+  this.a = a; 
  } 
  public double getA() { 
- return a; 
+  return a; 
  } 
  public double Pole() { 
- return a*a; 
+  return a*a; 
  } 
  public double Obwod() { 
- return 4*a; 
+  return 4*a; 
  } 
 }
 ```
@@ -173,23 +173,22 @@ public class Prostokat implements FiguraGeometryczna {
  private double a; // długość
  private double h; // wysokość
  public void setA(double a) { 
- this.a = a; 
+  this.a = a; 
  } 
  public double getA() { 
-4 
- return a; 
+  return a; 
  } 
  public void setH(double h) { 
- this.h = h; 
+  this.h = h; 
  } 
  public double getH() { 
- return h; 
+  return h; 
  } 
  public double Pole() { 
- return a*h; 
+  return a*h; 
  } 
  public double Obwod() { 
- return 2*a+2*h; 
+  return 2*a+2*h; 
  } 
 }
 ````
@@ -279,9 +278,9 @@ w polu, albo w konstruktorze. Nie możemy później zmienić takiej wartości. P
 zakończy się błędem kompilacji. 
 public class MovieItem { 
  public static final String LABEL = "Default item name"; 
- public void updateLabel() { 
- this.LABEL = "Default item name created by JavAPPa"; //nie 
-skompiluje się
+  public void updateLabel() { 
+   this.LABEL = "Default item name created by JavAPPa"; //nie 
+ skompiluje się
  } 
 }
 ```
@@ -291,60 +290,78 @@ kodzie słów static final:
 package KlasyAbstrakcyjne; 
 ```
 public interface FiguraGeometryczna { 
-6 
  double Pole(); 
  double Obwod(); 
  public String LABEL = "Moje figury geometryczne"; 
  default String getFullName() { 
- return "Interfejs Figura geometryczna"; 
+  return "Interfejs Figura geometryczna"; 
  } 
 }
 ```
 ## Zadania do samodzielnego rozwiązania: 
 Zaimplementować aplikację za pomocą interfejsów i klas abstrakcyjnych. 
 
-### Zadanie 1. Transport 
+### **[Zadanie 1.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab3/zadania/src/Transport)** Transport 
 Proszę zaimplementować aplikację modelu istniejących środków transportu używanych do 
 przemieszczania się zarówno na lądzie, wodzie jak i w powietrzu. Wskazówka: Należy utworzyć
-interfejs Plywa oraz Lata (metody odpowiednio plyn() i lec()). Powinno się również zdefiniować klasy 
-implementujące każdy z interfejsów (np. Statek, Samolot) jak również klasę tworzącą przykładowe 
+interfejs `Plywa` oraz `Lata` (metody odpowiednio `plyn()` i `lec()`). Powinno się również zdefiniować klasy 
+implementujące każdy z interfejsów (np. `Statek`, `Samolot`) jak również klasę tworzącą przykładowe 
 obiekty wraz z wywołaniem zaimplementowanych metod.
-### Zadanie 2. Zwierzęta 
-Proszę zaimplementować aplikację obrazującą Zwierzęta i ich podstawowe czynności (płynie, wynurza 
-się, zanurza, wydala, leci, ląduje). Wskazówka: Należy utworzyć dwa interfejsy: Pływanie z metodami 
-plyn(), wynurz(), zanurz() oraz interfejs Latanie z metodami lec(), wyladuj(). Klasę Zwierze należy 
-zmodyfikować tak aby była klasą abstrakcyjną. Klasę Ryba również by była abstrakcyjna. W klasie 
-Ryba powinny się znaleźć metody jedz() i wydalaj(). 
+
+### **[Zadanie 2.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab3/zadania/src/Zwierzeta)**. Zwierzęta 
+Proszę zaimplementować aplikację obrazującą `Zwierzęta` i ich podstawowe czynności (`płynie`, `wynurza 
+się`, `zanurza`, `wydala`, `leci`, `ląduje`). Wskazówka: Należy utworzyć dwa interfejsy: Pływanie z metodami 
+`plyn()`, `wynurz()`, `zanurz()` oraz interfejs Latanie z metodami `lec()`, `wyladuj()`. Klasę Zwierze należy 
+zmodyfikować tak aby była klasą abstrakcyjną. Klasę `Ryba` również by była abstrakcyjna. W klasie 
+`Ryba` powinny się znaleźć metody `jedz()` i `wydalaj()`. 
 Gotowe rozwiązanie powinno zostać przetestowane poprzez utworzenie nowego Zwierzaka gatunku 
-Wieloryb i sprawdzenie jego działania. 
-### Zadanie 3. 
+Wieloryb i sprawdzenie jego działania.
+
+### **[Zadanie 3.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab3/zadania/src/Figury)**
+
 1. Uruchomić i zapoznać się z kodem plików znajdujących się w rozpakowanym pliku. Dołącz 
 wszytki do nowego projektu. 
+
 2. W programie głównym utworzyć reprezentację każdej klasy, która jest w projekcie i zaproponuj 
 uruchomienie przykładowych trzech funkcji. 
-3. Zamienić klasę Figura na klasę abstrakcyjną 
-4. Dodaj do klasy Figura metodę abstrakcyjną String opis(), zwracającą informację o obiekcie, np. 
+
+3. Zamienić klasę `Figura` na klasę abstrakcyjną 
+
+4. Dodaj do klasy Figura metodę abstrakcyjną `String opis()`, zwracającą informację o obiekcie, np. 
 „Obiekt klasy Prostokat”. 
+
 5. Zmodyfikować pozostałe klasy, tak, aby program kompilował się poprawnie. 
+
 6. W programie głównym utworzyć tablicę o nazwie tablicaFigur o rozmiarze 10 typu Figura. Do 
 każdego elementu tablicy utworzyć nowy obiekt, lub przypisać istniejący. 
-7. Dla każdego obiektu tablicy wywołać metodę opis(). Z której klasy została wywołana metoda opis() 
+
+7. Dla każdego obiektu tablicy wywołać metodę `opis()`. Z której klasy została wywołana metoda opis() 
 i dlaczego? 
+
 8. W klasie Figura zdefiniować dodatkowe metody abstrakcyjne i zaimplementuj je w klasach 
 potomnych: 
 a) void skaluj(float skala) //skaluje wielkość figury 
+
 9. Zdefiniuj interfejs o nazwie IFigury, zawierający następujące metody: 
-b) float getPowierzchnia(); 
-c) boolean wPolu(Punkt p); 
-10. Zaimplementuj interfejs IFigury we wszystkich klasach Prostokat, Trojkat, Kwadrat. 
+```a) float getPowierzchnia(); 
+b) boolean wPolu(Punkt p);
+```
+
+10. Zaimplementuj interfejs `IFigury` we wszystkich klasach `Prostokat`, `Trojkat`, `Kwadrat`. 
+
 11. W programie głównym zadeklaruj listę obiektów typu IFigury, następnie przypisz do niej różne 
-figury: Prostokat, Kwadrat, Trojkat. 
-12. Dla każdego obiektu tablicy IFigur wywołaj metodę getPowierzchnia() i w_polu().
+figury: `Prostokat`, `Kwadrat`, `Trojkat`. 
+
+12. Dla każdego obiektu tablicy `IFigur` wywołaj metodę `getPowierzchnia()` i `w_polu()`.
     
-Kolejno: 
+### Kolejno: 
 
 1. Utwórz klasę Okrag dziedziczącą po klasie Figura 
+
 2. Zdefiniuj interfejs o nazwie RuchFigury, zawierający następującą metodę: 
+
 3. void przesun(int x, int y); 
-4. Zaimplementuj interfejs RuchFigury w klasie Okrąg. 
-5. Sprawdź działanie interfejsu.
+
+4. Zaimplementuj interfejs RuchFigury w klasie Okrąg.
+  
+6. Sprawdź działanie interfejsu.
