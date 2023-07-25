@@ -25,8 +25,8 @@ public class Main {
  
    int itemCounter = 0;
    while (itemCounter < 5) {
-   System.out.println(itemCounter);
-   itemCounter++;
+    System.out.println(itemCounter);
+    itemCounter++;
    }
    itemCounter = 0;
    do {
@@ -116,36 +116,37 @@ public class Main {
     System.out.println("Wylosowana liczba z zakresu ["+x+","+y+"]: " 
     +a); 
      // Sprawdzenie powyższego przykładu dla liczb ujemnych: 
-    x = -27; // To wartość przykładowa 
+     x = -27; // To wartość przykładowa 
      y = -15; // To wartość przykładowa 
      a = rand.nextInt(y-x+1)+x; 
      System.out.println("Wylosowana liczba z zakresu ["+x+","+y+"]: " 
     +a); 
-    // Sprawdzenie powyższego przykładu w sytuacji, kiedy jedna liczba 
-    // jest ujemna, a druga dodatnia 
+     // Sprawdzenie powyższego przykładu w sytuacji, kiedy jedna liczba 
+     // jest ujemna, a druga dodatnia 
      x = -7; // To wartość przykładowa 
-    y = 15; // To wartość przykładowa 
-    a = rand.nextInt(y-x+1)+x; 
+     y = 15; // To wartość przykładowa 
+     a = rand.nextInt(y-x+1)+x; 
      System.out.println("Wylosowana liczba z zakresu ["+x+","+y+"]: " 
     +a); 
     } 
 }
 ```
 ## Zadania:
-1. Grupa laboratoryjna składa się z n studentów (wartość n podaje użytkownik). Wprowadzamy 
+### **[Zadania 1.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab2/zadania/src/zadanie1.java)** 
+Grupa laboratoryjna składa się z n studentów (wartość n podaje użytkownik). Wprowadzamy 
 liczbę punktów dla każdego studenta. Napisz program, który obliczy średnią liczbę punktów w 
-grupie z wykorzystaniem pętli while. 
-
-2. Napisz program, który pozwoli na wczytanie 10 liczb i wyznaczeniu ilości oraz sumy liczb 
+grupie z wykorzystaniem pętli `while`. 
+### **[Zadania 2.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab2/zadania/src/zadanie2.java)**
+Napisz program, który pozwoli na wczytanie 10 liczb i wyznaczeniu ilości oraz sumy liczb 
 ujemnych i dodatnich podanych przez użytkownika. 
-
-3. Dany jest ciąg n liczb (n>0), napisz program pozwalający na obliczenie sumy wszystkich liczb 
+### **[Zadania 3.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab2/zadania/src/zadanie3.java)**
+Dany jest ciąg n liczb `(n>0)`, napisz program pozwalający na obliczenie sumy wszystkich liczb 
 parzystych w danym ciągu. 
-
-4. Wykorzystując algorytm z zadania 5, napisz program który pozwoli użytkownikowi na 
-wylosowanie n liczb z przedziału (-10,45) i obliczy sumę wszystkich liczb parzystych w danym 
+### **[Zadania 4.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab2/zadania/src/zadanie4.java)**
+Wykorzystując algorytm z zadania 5, napisz program który pozwoli użytkownikowi na 
+wylosowanie n liczb z przedziału `(-10,45)` i obliczy sumę wszystkich liczb parzystych w danym 
 ciągu. 
-
-5. Napisz program, który odpowie na pytanie, czy podane przez użytkownika słowo jest 
+### **[Zadania 5.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab2/zadania/src/zadanie5.java)**
+Napisz program, który odpowie na pytanie, czy podane przez użytkownika słowo jest 
 palindromem. Palindrom to słowo, które jest takie samo czytane od początku i od końca, np. 
 kajak.
