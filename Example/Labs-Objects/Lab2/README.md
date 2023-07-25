@@ -195,22 +195,31 @@ public void Wypisz(){
 ## Zadania do samodzielnego rozwiązania:
 
 ### **[Zadanie 1.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab2/zadania/src/Point)**
-1. Utwórz projekt zawierający funkcje Main./
-2. Utwórz klasę Punkt, która zawiera publiczne pola (współrzędne): x oraz y./
-3. Dla klasy Punkt zdefiniuj konstruktor bezparametrowy, który zainicjuje początkowe wartości 
-atrybutów./
-4. Zdefiniuj drugi konstruktor, który przekazane parametry zapamięta, jako wartości atrybutów: x i y./
-5. Zdefiniuj następujące metody dla klasy punkt:/
+1. Włącz środowisko.
+
+2. Utwórz projekt zawierający funkcje Main.
+   
+3. Utwórz klasę Punkt, która zawiera publiczne pola (współrzędne): x oraz y.
+   
+4. Dla klasy Punkt zdefiniuj konstruktor bezparametrowy, który zainicjuje początkowe wartości
+atrybutów.
+5. Zdefiniuj drugi konstruktor, który przekazane parametry zapamięta, jako wartości atrybutów: x i y.
+   
+6. Zdefiniuj następujące metody dla klasy punkt:
  • gettery i settery
  • void zeruj();
  • void opis();
  • void przesun(int x, int y);
-6. W metodzie main() utwórz trzy obiekty typu Punkt./
-7. Pokaż, w jaki sposób można wykorzystać każdą ze zdefiniowanych metod./
-8. Do pakietu pliki Figury, Prostokąt i Trojkat (udostępnione przez prowadzącego)./
-9. Utworzyć obiekty typu `Figura`, `Prostokat` i `Trojkat`. Sprawdzić działanie wybranych metod dla 
-utworzonych obiektów./
-10. Zaprojektować klasę Okrag zawierającą pola: /
+7. W metodzie main() utwórz trzy obiekty typu Punkt.
+   
+8. Pokaż, w jaki sposób można wykorzystać każdą ze zdefiniowanych metod.
+  
+9. Do pakietu pliki Figury, Prostokąt i Trojkat (udostępnione przez prowadzącego).
+  
+10. Utworzyć obiekty typu `Figura`, `Prostokat` i `Trojkat`. Sprawdzić działanie wybranych metod dla 
+utworzonych obiektów.
+
+11. Zaprojektować klasę Okrag zawierającą pola: 
  • środek klasy Punkt – środek okręgu, 
  • promień typu double 
  oraz metody: 
@@ -228,19 +237,30 @@ utworzonych obiektów./
  Konstruktory: 
  • Pusty – inicjujący pola wartościami domyślnymi punkt (0,0), promień 0, 
  • Określający punkt oraz promień 
-12. Zmodyfikować klasę Prostokat i Trojkat, tak, aby dziedziczyły z klasy Figura./
+ 
+12. Zmodyfikować klasę Prostokat i Trojkat, tak, aby dziedziczyły z klasy Figura.
+
 13. Dodać konstruktor przeciążony dla klasy Prostokat postaci: Prostokat(float wys,float szer, String 
-kolor). Wewnątrz konstruktora powinien być wywołany konstruktor z klasy bazowej./
-14. Dodać konstruktor przeciążony dla klasy Trojkat postaci Trojkat(float wys,float podst,String kolor)./
-15. Dodać metodę przesuwającą prostokąt o dane współrzędne void przesun(float x, float y)./
-16. Dla obiektu typu Prostokat wywołać metodę przesun(3,5)./
-17. Zdefiniować nową klasę Kwadrat dziedziczącą z klasy Prostokat. Umieścić w niej gettery i setery. /
-18. Utworzyć dowolny obiekt typu Kwadrat i nadać mu dowolną wartość początkową./
-19. Przysłonić metody opis() we wszystkich klasach./
+kolor). Wewnątrz konstruktora powinien być wywołany konstruktor z klasy bazowej.
+
+14. Dodać konstruktor przeciążony dla klasy Trojkat postaci Trojkat(float wys,float podst,String kolor).
+
+15. Dodać metodę przesuwającą prostokąt o dane współrzędne void przesun(float x, float y).
+
+16. Dla obiektu typu Prostokat wywołać metodę przesun(3,5).
+
+17. Zdefiniować nową klasę Kwadrat dziedziczącą z klasy Prostokat. Umieścić w niej gettery i setery. 
+
+18. Utworzyć dowolny obiekt typu Kwadrat i nadać mu dowolną wartość początkową.
+
+19. Przysłonić metody opis() we wszystkich klasach.
+
 20. Dla utworzonych obiektów wywołać metodę opis(), w taki sposób, aby opis o danym obiekcie został 
-wyświetlony na konsolę./
-21. Zmodyfikować klasę Okrag zawierającą, tak, aby dziedziczyła po klasie Figura./
-22. Sprawdzić działanie zdefiniowanych metod dla przykładowych obiektów./
+wyświetlony na konsolę.
+
+21. Zmodyfikować klasę Okrag zawierającą, tak, aby dziedziczyła po klasie Figura.
+
+22. Sprawdzić działanie zdefiniowanych metod dla przykładowych obiektów.
 
 ### **[Zadanie 2.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab2/zadania/src/Car)**
 Napisz program, w którym będą dwie klasy: `Samochod` i `SamochodOsobowy`. W klasach tych powinny
