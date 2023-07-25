@@ -7,9 +7,9 @@ redirect_to: java.dawidolko.pl
 
 ## Spis treści:
 
-### Labolatoria:
+### Labolatoria 1:
 
-**[Lab00](LAB00/README.md) - Wstęp**
+**[Lab01](LAB00/README.md) - Wstęp**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/LAB00)
 
 <br>
@@ -75,9 +75,52 @@ redirect_to: java.dawidolko.pl
 
 <br>
 
+### Labolatoria 2:
 
-**[Przykład](Example/README.md) - Przykłady zadań**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example)
+**[Lab01](Example/Lab1/README.md) - LAB1**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab1)
+
+<br>
+
+**[Lab02](Example/Lab2/README.md) - LAB2**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab2)
+
+<br>
+
+**[Lab03](Example/Lab3/README.md) - LAB3**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab3)
+
+<br>
+
+**[Lab04](Example/Lab4/README.md) - LAB4**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab4)
+
+<br>
+
+**[Lab05](Example/Lab5/README.md) - LAB5**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab5)
+
+<br>
+
+**[Lab06](Example/Lab6/README.md) - LAB6**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab6)
+
+<br>
+
+**[Lab07](Example/Labs-Objects/Lab1/README.md) -  LAB7**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab1)
+
+<br>
+
+**[Lab08](Example/Labs-Objects/Lab2/README.md) - LAB8**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab2)
+
+<br>
+
+**[Lab09](Example/Labs-Objects/Lab3/README.md) - LAB9**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab3)
+
+<br>
 
 ### Kolokwia: 
 
