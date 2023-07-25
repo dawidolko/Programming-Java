@@ -154,6 +154,11 @@ redirect_to: java.dawidolko.pl
 **[Co to projekty?](Projects/README.md) - Definicja i zagadnienia**
  - [Repozytorium](https://github.com/dawidolko/Programming-Java/tree/master/Projects)
 
+### Gry:
+
+**[Co to projekty?](JavaGUI/ProsteGry/README.md) - Definicja i zagadnienia**
+ - [Repozytorium](https://github.com/dawidolko/Programming-Java/tree/master/JavaGUI/ProsteGry/src)
+
 
 ### Kursy:
 
@@ -167,6 +172,13 @@ redirect_to: java.dawidolko.pl
   - [Opis kursu](Courses/Coursee2/README.md)
 
 <br>
-  
+
 - **[Kurs 3](https://github.com/dawidolko/Programming-Java/tree/master/Courses/Coursee3)**
   - [Opis kursu](Courses/Coursee3/README.md)
+
+<br>
+
+- **[Kurs JAVA GUI](https://github.com/dawidolko/Programming-Java/tree/master/JavaGUI/Course)**
+  - [Opis kursu](JavaGUI/Course/README.md)
+
+<br>
