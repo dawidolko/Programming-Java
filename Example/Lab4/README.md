@@ -86,14 +86,14 @@ public static void PetlaFor(){
  int[] Liczby = {12, 4, 5};
  System.out.println("Using for Loop:");
  for(int i = 0; i < Liczby.length; i++) {
- System.out.println(Liczby[i]);
+  System.out.println(Liczby[i]);
  }
 }
 //wypisywanie elemetów tablicy od ostatniego indeksu
  public static void PetlaFor1(){
    int[] Liczby = {12, 4, 5};
    for (int i = Liczby.length - 1; i >= 0 ; i--) {
-   System.out.print(Liczby[i] + " ");
+    System.out.print(Liczby[i] + " ");
    }
  }
 ```
@@ -103,7 +103,7 @@ public static void PetlaForEach(){
    int[] Liczby = {12, 4, 5};
    System.out.println("Using for Loop:");
    for(int i : Liczby) {
-   System.out.println(i);
+    System.out.println(i);
  }
 }
 ```
@@ -129,8 +129,8 @@ public class ArrayExample {
    //wyświetlenie elementow tablicy
    System.out.println("Elementy tablicy:");
    for (int i = 0; i < a.length; ++i) {
-   for(int j = 0; j < a[i].length; ++j) {
-   System.out.print(a[i][j] + "\t");
+    for(int j = 0; j < a[i].length; ++j) {
+     System.out.print(a[i][j] + "\t");
    }
    System.out.println();
    }
@@ -151,9 +151,9 @@ public class ArrayExample {
    // first for...each loop access the individual array
    // inside the 2d array
    for (int[] innerArray: a) {
-   // second for...each loop access each element inside the row
-   for (int data : innerArray) {
-   System.out.print(data + "\t");
+    // second for...each loop access each element inside the row
+     for (int data : innerArray) {
+       System.out.print(data + "\t");
    }
    System.out.println();
    }
@@ -215,7 +215,7 @@ public class ArrayExample {
    int [] destination = new int[6];
    // iterate and copy elements from source to destination
    for (int i = 0; i < source.length; ++i) {
-   destination[i] = source[i];
+    destination[i] = source[i];
    }
    // converting array to string
    System.out.println(Arrays.toString(destination));
@@ -343,34 +343,41 @@ równa: 0 czy 500 ?
 
 ## Zadania do samodzielnego rozwiązania:
 
-1. Napisz program obliczający sumę i średnią elementów tablicy z użyciem pętli for oraz for each.
+### **[Zadanie 1.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab4/zadania/src/zadanie1.java)** 
+Napisz program obliczający sumę i średnią elementów tablicy z użyciem pętli `for` oraz `for each`.
 Elementy do tablicy mają zostać wylosowane z dowolnego przedziały. Należy zaproponować 
 oddzielną metodę do losowania liczb.
 
-2. Napisz program, który wypisze co drugi element zdefiniowanych przez Ciebie tablic. Pierwsza
+### **[Zadanie 2.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab4/zadania/src/zadanie2.java)** 
+Napisz program, który wypisze co drugi element zdefiniowanych przez Ciebie tablic. Pierwsza
 tablica powinna mieć parzystą liczbę elementów, a druga nieparzystą.
 
-3. Napisz program, w którym zdefiniujesz tablicę wartości typu String i zainicjalizujesz ją
-przykładowymi wartościami. Skorzystaj z pętli for-each, aby wypisać wszystkie wartości 
+### **[Zadanie 3.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab4/zadania/src/zadanie3.java)** 
+Napisz program, w którym zdefiniujesz tablicę wartości typu `String` i zainicjalizujesz ją
+przykładowymi wartościami. Skorzystaj z pętli `for-each`, aby wypisać wszystkie wartości 
 tablicy ze wszystkimi literami zamienionymi na wielkie. Skorzystaj z funkcjonalności 
-toUpperCase wartości typu String..
+toUpperCase wartości typu `String`.
 
-4. Napisz program, który pobierze od użytkownika pięć słów i zapisze je w tablicy. Następnie,
+### **[Zadanie 4.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab4/zadania/src/zadanie4.java)** 
+Napisz program, który pobierze od użytkownika pięć słów i zapisze je w tablicy. Następnie,
 program powinien wypisać wszystkie słowa, od ostatniego do pierwszego, z literami 
-zapisanymi od końca do początku. Dla przykładu, dla podanych słów "Ala", "ma", "kota", "i", 
-"psa" program powinien wypisać: "asp", "i", "atok", "am", "alA".
+zapisanymi od końca do początku. Dla przykładu, dla podanych słów `"Ala", "ma", "kota", "i", 
+"psa" program powinien wypisać: "asp", "i", "atok", "am", "alA"`.
 
-5. Napisz program, który pobierze od użytkownika osiem liczb, zapisze je w tablicy, a następnie
+### **[Zadanie 5.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab4/zadania/src/zadanie5.java)** 
+Napisz program, który pobierze od użytkownika osiem liczb, zapisze je w tablicy, a następnie
 posortuje tą tablicę rosnąco i wypisze wynik sortowania na ekran. Dla przykładu, dla liczb 10, 
--2, 1, 100, 20, -15, 0, 10, program wypisze -15, -2, 0, 1, 10, 10, 20, 100. Zastanów się, jak można
+`-2, 1, 100, 20, -15, 0, 10`, program wypisze `-15, -2, 0, 1, 10, 10, 20, 100`. Zastanów się, jak można
 posortować ciąg liczb i spróbuj zaimplementować swoje rozwiązanie. Przetestuj je na różnych
 zestawach danych. Możesz też skorzystać z jednego z popularnych algorytmów sortowania, np.
 sortowania przez wstawianie. Działanie algorytmu omówiono szczegółowo na zajęciach 
 algorytmy i struktury danych.
 
-6. Napisz program, który pobierze od użytkownika pięć liczb, zapisze je w tablicy, a następnie 
+### **[Zadanie 6.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab4/zadania/src/zadanie6.java)** 
+Napisz program, który pobierze od użytkownika pięć liczb, zapisze je w tablicy, a następnie 
 policzy i wypisze silnię każdej z pobranych liczb.
 
-7. Napisz program, w którym zdefiniujesz dwie tablice przechowujące wartości typu String.
+### **[Zadanie 7.](https://github.com/dawidolko/Programming-Java/blob/master/Example/Lab4/zadania/src/zadanie7.java)** 
+Napisz program, w którym zdefiniujesz dwie tablice przechowujące wartości typu `String`.
 Zainicjalizuj obie tablice takimi samymi wartościami, w takiej samej kolejności. Napisz kod, 
-który porówna obie tablice i odpowie na pytanie, czy są one takie same
+który porówna obie tablice i odpowie na pytanie, czy są one takie same.
