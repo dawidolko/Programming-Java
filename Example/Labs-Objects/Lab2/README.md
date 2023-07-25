@@ -6,6 +6,8 @@ Z koncepcyjnego punktu widzenia kompozycja oznacza, że "obiekt jest zawarty w i
 Jest to relacja "całość – część" ( B "zawiera" A). Np. obiekty typu Pojazd zawierają obiekty typu 
 Rozmiar, Koła, Silnik itd.. Kompozycję uzyskujemy poprzez definiowanie w nowej klasie pól, które są 
 obiektami istniejących klas.
+
+<br>[labo2](img/labo2v1)
 ```
 package PO_UR.Lab06.Kompozycja;
 public class Osoba {
