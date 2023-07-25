@@ -15,8 +15,8 @@ public class Osoba {
  //definicja konstruktorów
  //definicja metod
  public void Info(){
- System.out.println("Imie Nazwisko: "+imie +" "+ nazwisko+"\nWiek: 
-"+wiek);
+  System.out.println("Imie Nazwisko: "+imie +" "+ nazwisko+"\nWiek: 
+ "+wiek);
  }
 }
 ```
@@ -24,10 +24,10 @@ public class Osoba {
 ```
 public class Main {
  public static void main(String[] args) {
- //stworzenie obiektu klasy Osoba
- Osoba obiekt1 = new Osoba();
- //wywołanie metody 
- obiekt1.Info();
+  //stworzenie obiektu klasy Osoba
+  Osoba obiekt1 = new Osoba();
+  //wywołanie metody 
+  obiekt1.Info();
  }
 }
 ```
@@ -40,38 +40,38 @@ public class Osoba {
  //definicja konstruktorów
  //definicja metod
  public void Info(){
- System.out.println("Imie Nazwisko: "+imie +" "+ nazwisko+"\nWiek: 
-"+wiek);
+  System.out.println("Imie Nazwisko: "+imie +" "+ nazwisko+"\nWiek: 
+ "+wiek);
  }
  //metody getter i setter
  // Gettery i settery są metodami pozwalającymi na pobranie
  // lub zmianę wartości prywatnego pola klasy z zewnątrz.
  public String getImie() {
- return imie;
+  return imie;
  }
  public void setImie(String imie) {
- this.imie = imie;
+  this.imie = imie;
  }
  public String getNazwisko() {
- return nazwisko;
+  return nazwisko;
  }
  public void setNazwisko(String nazwisko) {
- this.nazwisko = nazwisko;
+  this.nazwisko = nazwisko;
  }
  public int getWiek() {
- return wiek;
+  return wiek;
  }
  public void setWiek(int wiek) {
- this.wiek = wiek;
+  this.wiek = wiek;
  }
 }
 public class Main {
  public static void main(String[] args) {
- Osoba obj = new Osoba();
- obj.setImie("Jan");
- obj.setNazwisko("Nowak");
- obj.setWiek(11);
- obj.Info();
+  Osoba obj = new Osoba();
+  obj.setImie("Jan");
+  obj.setNazwisko("Nowak");
+  obj.setWiek(11);
+  obj.Info();
  }
 }
 ```
@@ -89,18 +89,18 @@ public class Osoba {
  //definicja konstruktorów
  //konstruktor bezargumentowy
  public Osoba(){
- //ciało konstruktora
+  //ciało konstruktora
  }
  //konstruktor z agrymnetami
  public Osoba(String imie, String nazwisko, int wiek) {
- this.imie = imie;
- this.nazwisko = nazwisko;
- this.wiek = wiek;
+  this.imie = imie;
+  this.nazwisko = nazwisko;
+  this.wiek = wiek;
  }
  //definicja metod
  public void Info(){
- System.out.println("Imie Nazwisko: "+imie +" "+ nazwisko+"\nWiek: 
-"+wiek);
+  System.out.println("Imie Nazwisko: "+imie +" "+ nazwisko+"\nWiek: 
+ "+wiek);
  }
 3
 }
@@ -152,8 +152,8 @@ public class JavaStringExample {
  StringNew();
    }
    public static void StringNew(){
-   String str1 = new String("Przykładowy tekst");
-   System.out.println(str1);
+    String str1 = new String("Przykładowy tekst");
+    System.out.println(str1);
  }
 }
 ```
@@ -232,13 +232,13 @@ public class Osoba {
  String imie = "Jan", nazwisko = "Nowak";
  int wiek = 11;
  Osoba(String imie) {
- this.imie = imie;
- System.out.println("this reference "+this);
+  this.imie = imie;
+  System.out.println("this reference "+this);
  }
  public static void main(String[] args) {
- Osoba obj1 = new Osoba("Jan");
- System.out.println("object reference: "+obj1);
- }
+  Osoba obj1 = new Osoba("Jan");
+   System.out.println("object reference: "+obj1);
+  }
 }
 output
 this reference PO_UR.Osoba@119d7047
@@ -250,21 +250,21 @@ Odniesienie zarówno do obiektu oraz poprzez this jest takie samo.
 public class Punkt {
  int x,y;
  public Punkt(int x, int y) {
- this.x = x;
- this.y = y;
- System.out.println("Początkowe wartości x = " + this.x + ", y = " + 
-this.y);
+  this.x = x;
+  this.y = y;
+  System.out.println("Początkowe wartości x = " + this.x + ", y = " + 
+ this.y);
  // wywołanie metody add
- add(this);
- System.out.println("Wartość x i y po przekazaniu obiektu do metody 
-x= "+ this.x + ", y = " + this.y);
+  add(this);
+  System.out.println("Wartość x i y po przekazaniu obiektu do metody 
+ x= "+ this.x + ", y = " + this.y);
  }
  void add(Punkt pkt1){
- pkt1.x+=2;
- pkt1.y+=2;
+  pkt1.x+=2;
+  pkt1.y+=2;
  }
  public static void main(String[] args) {
- Punkt obj1 = new Punkt(1,-2);
+  Punkt obj1 = new Punkt(1,-2);
  }
 }
 ```
@@ -275,29 +275,28 @@ przypisać tylko raz.
 ```
 public class ExampleFinal {
  public static void main(String[] args) {
- final int wiek = 23;
- System.out.println("wiek: "+wiek);
- wiek = 12; // error java: cannot assign a value to final variable 
-wiek
+  final int wiek = 23;
+  System.out.println("wiek: "+wiek);
+  wiek = 12; // error java: cannot assign a value to final variable 
+ wiek
  }
  public final void wypisz(){
- System.out.println("Metoda final");
+  System.out.println("Metoda final");
  }
 // create a final class
 final class FinalClass {
  public void display() {
- System.out.println("This is a final method.");
+  System.out.println("This is a final method.");
  }
 }
 // try to extend the final class
 class Main extends FinalClass {
  public void display() {
- System.out.println("The final method is overridden.");
+  System.out.println("The final method is overridden.");
  }
  public static void main(String[] args) {
- Main obj = new Main();
- obj.display();
-7
+  Main obj = new Main();
+   obj.display();
  }
 }
 ```
@@ -306,22 +305,23 @@ Operator wykorzystywany do sprawdzania czy obiekt jest instancją klasy.
 ```
 public class ExampleInstanceof {
  public static void main(String[] args) {
- String name = "Programiz";
- // checks if name is instance of String
- boolean result1 = name instanceof String;
- System.out.println("name is an instance of String: " + result1);
- // create an object of class
- ExampleInstanceof obj = new ExampleInstanceof();
- // checks if obj is an instance of Main
- boolean result2 = obj instanceof ExampleInstanceof;
- System.out.println("obj is an instance of Main: " + result2);
+  String name = "Programiz";
+  // checks if name is instance of String
+  boolean result1 = name instanceof String;
+  System.out.println("name is an instance of String: " + result1);
+  // create an object of class
+  ExampleInstanceof obj = new ExampleInstanceof();
+  // checks if obj is an instance of Main
+  boolean result2 = obj instanceof ExampleInstanceof;
+  System.out.println("obj is an instance of Main: " + result2);
  }
 }
 ```
 ## Zadania do samodzielnego rozwiązania:
 
-1. W nowym pakiecie utwórz klasy opisujące następujące figury geometryczne: Koło, Kwadrat, 
-Prostokąt, Sześcian, Prostopadłościan, Kula, Stożek. Dla każdej klasy dobierz odpowiednie pola. 
+### **[Zadanie 1.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab1/zadania/src/Figures)** 
+W nowym pakiecie utwórz klasy opisujące następujące figury geometryczne: `Koło`, `Kwadrat`, 
+`Prostokąt`, `Sześcian`, `Prostopadłościan`, `Kula`, `Stożek`. Dla każdej klasy dobierz odpowiednie pola. 
 Utwórz także metody obliczające pola figur, obwody (dla figur płaskich), oraz objętości (dla figur 
 przestrzennych). Dla każdej klasy utwórz metodę wyświetlającą dane dotyczące figury tj. nazwa, 
 parametry, wartość pola i obwodu lub objętości. Utwórz obiekty tych figur i pokaż wyniki obliczeń 
@@ -329,15 +329,17 @@ przy użyciu funkcji wyświetlającej dane. Utwórz kalkulator dla figur geometr
 odpowiednie menu pozwalające na: wybór figury geometrycznej oraz wprowadzanie parametrów 
 dla tej figury z konsoli. Następnie wyświetl wyniki przy użyciu metody wyświetlającej dane.
 
-2. Stwórz klasę przechowującą informacje o Budynku (nazwa, rok budowy, liczba pięter). Przygotuj 
+### **[Zadanie 2.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab1/zadania/src/Building)**
+Stwórz klasę przechowującą informacje o Budynku (`nazwa`, `rok budowy`, `liczba pięter`). Przygotuj 
 metodę wyświetlającą wszystkie informacje o budynku, oraz metodę obliczającą ile lat ma budynek 
 (rok obecny możesz ustawić na sztywno). Stwórz kilka obiektów (budynków), ustaw im wartości i 
-wywołaj dla nich metody. Do obliczenia daty należy użyć klasy LocalData.
+wywołaj dla nich metody. Do obliczenia daty należy użyć klasy `LocalData`.
 
-3. Stwórz program w którym będzie utworzonych kilka obiektów typu Gatunek. Klasa Gatunek 
-powinna zawierać następujące pola: nazwę rodzaju, nazwę gatunkową, liczbę chromosomów 2n, 
+### **[Zadanie 3.](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab1/zadania/src/Species)** 
+Stwórz program w którym będzie utworzonych kilka obiektów typu `Gatunek`. Klasa `Gatunek` 
+powinna zawierać następujące pola: `nazwę rodzaju`, `nazwę gatunkową`, `liczbę chromosomów` 2n, 
 podstawową liczbę chromosomów x, opis oraz metody: podającą pełną nazwę (Rodzaj + gatunek), 
 podającą haploidalną liczbę chromosomów n, wypisującą wszystkie dane, klonującą obiekt –
-metoda powinna zwracać odnośnik do nowego obiektu typu Gatunek o wartościach pól takich 
+metoda powinna zwracać odnośnik do nowego obiektu typu `Gatunek` o wartościach pól takich 
 samych jak w obiekcie, w którym została wywołana. W programie powinny być użyte wszystkie 
 metody
