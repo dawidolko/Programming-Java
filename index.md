@@ -126,20 +126,20 @@ redirect_to: java.dawidolko.pl
 
  **[Treść zadań](Kolokwium/README.md) - Kolokwium 1**
 
-- **[Treść zadań](Kolokwium/exam1/README.md) - Kolokwium 1 Grupa 1**
+- [Treść zadań](Kolokwium/exam1/README.md) **- Kolokwium 1 Grupa 1**
   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1/kolokwium1/kolokwium/src)
 
-- **[Treść zadań](Kolokwium/exam1v2//README.md) - Kolokwium 1 Grupa 2**
+- [Treść zadań](Kolokwium/exam1v2//README.md) **- Kolokwium 1 Grupa 2**
   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam1v2/kolokwium1v2/kolokwium1/src)
  
  <br>
 
   **[Treść zadań](Kolokwium/README.md) - Kolokwium 2**
 
-- **[Treść zadań](Kolokwium/exam2/README.md) - Kolokwium 2 Grupa 1**
+- [Treść zadań](Kolokwium/exam2/README.md) **- Kolokwium 2 Grupa 1**
   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2/kolokwium%202/kolokwium2/src)
 
-- **[Treść zadań](Kolokwium/exam2v2/README.md) - Kolokwium 2 Grupa 2**
+- [Treść zadań](Kolokwium/exam2v2/README.md) **- Kolokwium 2 Grupa 2**
   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Kolokwium/exam2v2/kolokwium2v2/kolokwium2/src)
  
  <br>
