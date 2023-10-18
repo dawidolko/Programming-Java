@@ -93,6 +93,7 @@ wyświetlenie informacji._
 
 Po dodaniu przycisku należy użyć Create Listener Ctlt+O, a następnie wybrać ActionListener, a następnie
 utworzyć automatycznie metodę `actionPerformed`
+
 Kody metod:
 ```
 button_msg.addActionListener(new ActionListener() {
