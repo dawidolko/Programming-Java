@@ -8,12 +8,18 @@
 
 <br>![lab1](img/lab1.png)
 
-W kolejnym kroku należy utworzyć Swing UI Designer GUI From. W kolejnym okienku wpisujemy
+W kolejnym kroku należy utworzyć **Swing UI Designer GUI From**. W kolejnym okienku wpisujemy
 nazwę oraz możemy zdefiniować base layout.
+
+<br>![lab1](img/lab2.png)
 
 Widok po utworzeniu GUI:
 
-JFRAME
+<br>![lab1](img/lab3.png)
+
+**JFRAME**
+
+<br>![lab1](img/lab4.png)
 
 public class Example01 extends JFrame {
 private JPanel JPanel1;
