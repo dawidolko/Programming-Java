@@ -75,50 +75,57 @@ redirect_to: java.dawidolko.pl
 
 <br>
 
-### Labolatoria 2:
+### Programowanie obiektowe I:
 
-**[Lab01](Example/Lab1/README.md) - LAB1**
+**[Lab01](object-oriented programming 1/Lab1/README.md) - LAB1**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Lab1)
+
+<br>
+
+**[Lab02](object-oriented programming 1/Lab2/README.md) - LAB2**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Lab2)
+
+<br>
+
+**[Lab03](object-oriented programming 1/Lab3/README.md) - LAB3**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Lab3)
+
+<br>
+
+**[Lab04](object-oriented programming 1/Lab4/README.md) - LAB4**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Lab4)
+
+<br>
+
+**[Lab05](object-oriented programming 1/Lab5/README.md) - LAB5**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Lab5)
+
+<br>
+
+**[Lab06](object-oriented programming 1/Lab6/README.md) - LAB6**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Lab6)
+
+<br>
+
+**[Lab07](object-oriented programming 1/Labs-Objects/Lab1/README.md) -  LAB7**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Labs-Objects/Lab1)
+
+<br>
+
+**[Lab08](object-oriented programming 1/Labs-Objects/Lab2/README.md) - LAB8**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Labs-Objects/Lab2)
+
+<br>
+
+**[Lab09](object-oriented programming 1/Labs-Objects/Lab3/README.md) - LAB9**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Labs-Objects/Lab3)
+
+<br>
+
+### Programowanie obiektowe II:
+
+**[Lab01](object-oriented programming 1/Lab1/README.md) - LAB1**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab1)
-
-<br>
-
-**[Lab02](Example/Lab2/README.md) - LAB2**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab2)
-
-<br>
-
-**[Lab03](Example/Lab3/README.md) - LAB3**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab3)
-
-<br>
-
-**[Lab04](Example/Lab4/README.md) - LAB4**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab4)
-
-<br>
-
-**[Lab05](Example/Lab5/README.md) - LAB5**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab5)
-
-<br>
-
-**[Lab06](Example/Lab6/README.md) - LAB6**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Lab6)
-
-<br>
-
-**[Lab07](Example/Labs-Objects/Lab1/README.md) -  LAB7**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab1)
-
-<br>
-
-**[Lab08](Example/Labs-Objects/Lab2/README.md) - LAB8**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab2)
-
-<br>
-
-**[Lab09](Example/Labs-Objects/Lab3/README.md) - LAB9**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/Example/Labs-Objects/Lab3)
 
 <br>
 
