@@ -147,7 +147,9 @@ Accessible`
 ### **Przykład 2.** 
 _Należy utworzyć GUI zgodnie z poniższym rysunkiem oraz zaimplantować następujące
 zdarzenia:
+
 • Przycik Close zamyka okno.
+
 • Display the date – wyświetla aktualną date w JLabel._
 
 <br>![lab1](img/lab11.png)
@@ -180,7 +182,9 @@ Zamyka okno._
 ### **Zadanie 1. 
 _Należy zaproponować aplikację GUI do konwersji temperatury Celsjusza na Farenheit.
 Aplikacja powinna posiadać następujące funkcjonalności:
+
 • Wpisywanie temp w stopniach Celsjusza.
+
 • Pole w którym po przyciśnięciu przycisku konwertuj pojawi się wynik._
 
 ### **Zadanie 2.** 
