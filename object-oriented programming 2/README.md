@@ -32,7 +32,7 @@ To get started with this repository, follow these steps:
 1. Clone the repository to your local machine:
 
 `
-git clone https://github.com/dawidolko/java
+git clone https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202
 `
 
 2. Navigate to the specific task directory you want to work on:
