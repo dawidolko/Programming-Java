@@ -77,7 +77,7 @@ redirect_to: java.dawidolko.pl
 
 ### Programowanie obiektowe I:
 
-**[Lab01](object-oriented programming 1/Lab1/README.md) - LAB1**
+**[Lab01](object-oriented programming1/Lab1/README.md) - LAB1**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Lab1)
 
 <br>
