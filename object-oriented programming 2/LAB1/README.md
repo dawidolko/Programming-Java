@@ -14,12 +14,11 @@ nazwę oraz możemy zdefiniować base layout.
 <br>![lab1](img/lab2.png)
 
 Widok po utworzeniu GUI:
-
 <br>![lab1](img/lab3.png)
 
 **JFRAME**
-
 <br>![lab1](img/lab4.png)
+
 
 ```
 public class Example01 extends JFrame {
