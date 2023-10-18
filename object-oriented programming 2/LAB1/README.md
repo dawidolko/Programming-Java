@@ -89,6 +89,8 @@ Pozwala na umieszczanie komponentów w siatce kolumn i wierszy, a ich rozmiar mo
 _Należy utworzyć dwa przyciski, które pozwolą na wyjście z programu oraz
 wyświetlenie informacji._
 
+<br>![lab1](img/lab10.png)
+
 Po dodaniu przycisku należy użyć Create Listener Ctlt+O, a następnie wybrać ActionListener, a następnie
 utworzyć automatycznie metodę `actionPerformed`
 Kody metod:
@@ -147,7 +149,7 @@ zdarzenia:
 • Przycik Close zamyka okno.
 • Display the date – wyświetla aktualną date w JLabel._
 
-<br>![lab1](img/lab10.png)
+<br>![lab1](img/lab11.png)
 
 **JTEXTFIELD**
 `public class JTextField extends JTextComponent implements SwingConstants`
@@ -172,7 +174,7 @@ zdarzenia:
 ### **Przykład 3.**
 _Po podaniu a i b i przyciśnięci przycisku suma lub różnica pojawi się wynik działania, close
 Zamyka okno._
-<br>![lab1](img/lab11.png)
+<br>![lab1](img/lab12.png)
 
 ### **Zadanie 1. 
 _Należy zaproponować aplikację GUI do konwersji temperatury Celsjusza na Farenheit.
