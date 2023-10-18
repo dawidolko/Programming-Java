@@ -72,8 +72,17 @@ Pozwala na umieszczanie komponentów w siatce kolumn i wierszy, a ich rozmiar mo
 | `JButton(String s)` | It creates a button with the specified text.         |
 | `JButton(Icon i)` | It creates a button with the specified icon object.   |
 
-
 **Commonly used Methods of AbstractButton class:**
+
+| Methods                            | Description                                        |
+|------------------------------------|----------------------------------------------------|
+| `void setText(String s)`           | It is used to set specified text on button.        |
+| `String getText()`                 | It is used to return the text of the button.       |
+| `void setEnabled(boolean b)`       | It is used to enable or disable the button.        |
+| `void setIcon(Icon b)`             | It is used to set the specified Icon on the button.|
+| `Icon getIcon()`                   | It is used to get the Icon of the button.          |
+| `void setMnemonic(int a)`          | It is used to set the mnemonic on the button.      |
+| `void addActionListener(ActionListener a)` | It is used to add the action listener to this object.|
 
 <br>![lab1](img/lab10.png)
 
@@ -116,7 +125,22 @@ Accessible`
 
 **Commonly used Constructors:**
 
+| Constructor                                | Description                                      |
+|--------------------------------------------|--------------------------------------------------|
+| `JLabel()`                                 | Creates a JLabel instance with no image and with an empty string for the title.  |
+| `JLabel(String s)`                          | Creates a JLabel instance with the specified text.                           |
+| `JLabel(Icon i)`                            | Creates a JLabel instance with the specified image.                          |
+| `JLabel(String s, Icon i, int horizontalAlignment)` | Creates a JLabel instance with the specified text, image, and horizontal alignment.|
+
 **Commonly used Methods:**
+
+| Methods                                  | Description                                               |
+|------------------------------------------|-----------------------------------------------------------|
+| `String getText()`                       | It returns the text string that a label displays.          |
+| `void setText(String text)`              | It defines the single line of text this component will display. |
+| `void setHorizontalAlignment(int alignment)` | It sets the alignment of the label's contents along the X axis. |
+| `Icon getIcon()`                         | It returns the graphic image that the label displays.      |
+| `int getHorizontalAlignment()`           | It returns the alignment of the label's contents along the X axis. |
 
 ### **Przykład 2.** 
 _Należy utworzyć GUI zgodnie z poniższym rysunkiem oraz zaimplantować następujące
@@ -130,7 +154,21 @@ zdarzenia:
 `public class JTextField extends JTextComponent implements SwingConstants`
 **Commonly used Constructors:**
 
+| Constructor                              | Description                                               |
+|------------------------------------------|-----------------------------------------------------------|
+| `JTextField()`                           | Creates a new TextField                                   |
+| `JTextField(String text)`                | Creates a new TextField initialized with the specified text. |
+| `JTextField(String text, int columns)`   | Creates a new TextField initialized with the specified text and columns. |
+| `JTextField(int columns)`                | Creates a new empty TextField with the specified number of columns. |
+
 **Commonly used Methods:**
+
+| Methods                                   | Description                                               |
+|-------------------------------------------|-----------------------------------------------------------|
+| `void addActionListener(ActionListener l)` | It is used to add the specified action listener to receive action events from this textfield. |
+| `Action getAction()`                      | It returns the currently set Action for this ActionEvent source, or null if no Action is set. |
+| `void setFont(Font f)`                    | It is used to set the current font.                       |
+| `void removeActionListener(ActionListener l)` | It is used to remove the specified action listener so that it no longer receives action events from this textfield. |
 
 ### **Przykład 3.**
 _Po podaniu a i b i przyciśnięci przycisku suma lub różnica pojawi się wynik działania, close
