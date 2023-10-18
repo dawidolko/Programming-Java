@@ -17,7 +17,7 @@ Widok po utworzeniu GUI:
 <br>![lab1](img/lab3.png)
 
 **JFRAME**
-<br>![lab1](img/lab4.png)
+<br>![lab1](img/lab3v2.png)
 
 
 ```
@@ -46,20 +46,20 @@ public class Example01 extends JFrame {
 W Javie możemy umieszczać komponenty w następującym układzie:
 
 **a) BorderLayout**
-<br>![lab1](img/lab5.png)
+<br>![lab1](img/lab4.png)
 
 **b) CardLayout**
-<br>![lab1](img/lab6.png)
+<br>![lab1](img/lab5.png)
 
 **c) FlowLayout**
-<br>![lab1](img/lab7.png)
+<br>![lab1](img/lab6.png)
 
 **d) GridBagLayout**
-<br>![lab1](img/lab8.png)
+<br>![lab1](img/lab7.png)
 
 **e) GridLayoutManager IntelliJ**
 Pozwala na umieszczanie komponentów w siatce kolumn i wierszy, a ich rozmiar może być różny.
-<br>![lab1](img/lab9.png)
+<br>![lab1](img/lab8.png)
 
 **JBUTTON**
 `public class JButton extends AbstractButton implements Accessible`
@@ -83,7 +83,7 @@ Pozwala na umieszczanie komponentów w siatce kolumn i wierszy, a ich rozmiar mo
 | `void setMnemonic(int a)`          | It is used to set the mnemonic on the button.      |
 | `void addActionListener(ActionListener a)` | It is used to add the action listener to this object.|
 
-<br>![lab1](img/lab10.png)
+<br>![lab1](img/lab9.png)
 
 ### **Przykład 1.** 
 _Należy utworzyć dwa przyciski, które pozwolą na wyjście z programu oraz
@@ -147,7 +147,7 @@ zdarzenia:
 • Przycik Close zamyka okno.
 • Display the date – wyświetla aktualną date w JLabel._
 
-<br>![lab1](img/lab11.png)
+<br>![lab1](img/lab10.png)
 
 **JTEXTFIELD**
 `public class JTextField extends JTextComponent implements SwingConstants`
@@ -172,7 +172,7 @@ zdarzenia:
 ### **Przykład 3.**
 _Po podaniu a i b i przyciśnięci przycisku suma lub różnica pojawi się wynik działania, close
 Zamyka okno._
-<br>![lab1](img/lab12.png)
+<br>![lab1](img/lab11.png)
 
 ### **Zadanie 1. 
 _Należy zaproponować aplikację GUI do konwersji temperatury Celsjusza na Farenheit.
