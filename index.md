@@ -123,7 +123,7 @@ redirect_to: java.dawidolko.pl
 
 ### Programowanie obiektowe II:
 
-**[Lab01](e2bca1b5f63b57ca54471c5bbbae4f7df13cbd3b/object-oriented%20programming%202/README.md) - LAB1**
+**[Lab01](object-oriented%20programming%202/README.md) - LAB1**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-orientedProgramming2/LAB1)
 
 <br>
