@@ -116,14 +116,14 @@ redirect_to: java.dawidolko.pl
 
 <br>
 
-**[Lab09](object-oriented%20programming%201/Labs-Objects/Lab3/README.md) - LAB9**
+**[Lab09](object-oriented%20programming%201/Labs-Objects/Lab3) - LAB9**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%201/Labs-Objects/Lab3)
 
 <br>
 
 ### Programowanie obiektowe II:
 
-**[Lab01](object-oriented%20programming%202/README.md) - LAB1**
+**[Lab01](object-oriented%20programming%202/Lab3) - LAB1**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-orientedProgramming2/LAB1)
 
 <br>
