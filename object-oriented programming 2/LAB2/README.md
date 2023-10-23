@@ -25,7 +25,7 @@ public class JTextArea extends JTextComponent
 | `void insert(String s, int position)` | It is used to insert the specified text on the specified position.                  |
 | `void append(String s)`         | It is used to append the given text to the end of the document.                      |
 
-### PRZYKŁAD 1– KOD ŹRÓDŁOWY DOSTĘPNY W UDOSTĘPNIONYCH MATERIAŁACH.
+### [PRZYKŁAD 1](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2/lab2/src/Przyklad1)– KOD ŹRÓDŁOWY DOSTĘPNY W UDOSTĘPNIONYCH MATERIAŁACH.
 ```java
 package JTextArea;
 import javax.swing.*;
@@ -124,7 +124,7 @@ public class JPasswordField extends JTextField
 | `JPasswordField(String text)`         | Constructs a new JPasswordField initialized with the specified text.                                        |
 | `JPasswordField(String text, int columns)` | Construct a new JPasswordField initialized with the specified text and columns.                             |
 
-### Ćwiczenie 1. 
+### [Ćwiczenie 1.](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2/lab2/src) 
 Należy zaproponować GUI pokazane na rysunku poniżej, które posiada następującefunkcjonalności: 
 po podaniu username oraz password i kliknięciu w login w zakładce label mają pojawić
 się wpisane dane.
@@ -156,7 +156,7 @@ public class JRadioButton extends JToggleButton implements Accessible
 | `void setMnemonic(int a)`        | It is used to set the mnemonic on the button.                                   |
 | `void addActionListener(ActionListener a)` | It is used to add the action listener to this object.                         |
 
-### Ćwiczenie 2. 
+### [Ćwiczenie 2.](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2/lab2/src) 
 Zaprojektuj GUI według poniższego rysunku, a następnie zaimplementuj odpowiednie
 działanie programu, które po wybraniu systemu wyświetli ikonę systemu, a naciśniecie przycisku OK
 wyświetli komunikat wybranego systemu.
@@ -198,7 +198,7 @@ wybrane kursy.
 <br>![lab2](img/lab6.png)
 
 ## Zadania do samodzielnego rozwiązania
-### Zadanie 1. 
+### [Zadanie 1.](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2/lab2/src) 
 Należy zaproponować aplikację GUI, której przykładowy wygląd przedstawiono poniżej,
 aplikacja powinna posiadać następujące funkcjonalności:
 
@@ -216,6 +216,6 @@ aplikacja powinna posiadać następujące funkcjonalności:
 
 <br>![lab2](img/lab10.png)
 
-### Zadanie 2. 
+### [Zadanie 2.](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2/lab2/src) 
 Wykorzystując poznane komponenty należy zaprojektować aplikacje, która zaprezentuje
 użycie dostępnych metod dla omawianych komponentów.
