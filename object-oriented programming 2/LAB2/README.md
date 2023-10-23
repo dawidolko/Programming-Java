@@ -190,7 +190,7 @@ Przykładowy interfejs GUI z elementami chackBox
 <br>![lab2](img/lab4.png)
 <br>![lab2](img/lab5.png)
 
-### Ćwiczenie 3. 
+### [Ćwiczenie 3.](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2/lab2/src)
 Zaprojektuj aplikację zgodnie z poniższym rysunkiem. Użytkownik po wybraniu
 odpowiedniego kursu i kliknięciu przycisku Ok otrzyma message z informacją końcowej cenie za
 wybrane kursy.
