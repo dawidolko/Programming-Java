@@ -85,7 +85,7 @@ Pozwala na umieszczanie komponentów w siatce kolumn i wierszy, a ich rozmiar mo
 
 <br>![lab1](img/lab9.png)
 
-### **Przykład 1.** 
+### [**Przykład 1.**](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB1/lab1/src/Przyk%C5%82ad1) 
 _Należy utworzyć dwa przyciski, które pozwolą na wyjście z programu oraz
 wyświetlenie informacji._
 
@@ -144,7 +144,7 @@ Accessible`
 | `Icon getIcon()`                         | It returns the graphic image that the label displays.      |
 | `int getHorizontalAlignment()`           | It returns the alignment of the label's contents along the X axis. |
 
-### **Przykład 2.** 
+### [**Przykład 2.**](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB1/lab1/src/Przyk%C5%82ad2) 
 _Należy utworzyć GUI zgodnie z poniższym rysunkiem oraz zaimplantować następujące
 zdarzenia:_
 
@@ -174,12 +174,12 @@ zdarzenia:_
 | `void setFont(Font f)`                    | It is used to set the current font.                       |
 | `void removeActionListener(ActionListener l)` | It is used to remove the specified action listener so that it no longer receives action events from this textfield. |
 
-### **Przykład 3.**
+### [**Przykład 3.**](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB1/lab1/src/Przyk%C5%82ad3)
 _Po podaniu a i b i przyciśnięci przycisku suma lub różnica pojawi się wynik działania, close
 Zamyka okno._
 <br>![lab1](img/lab12.png)
 
-### **Zadanie 1.**
+### [**Zadanie 1.**](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB1/lab1/src/Zadanie1)
 _Należy zaproponować aplikację GUI do konwersji temperatury Celsjusza na Farenheit.
 Aplikacja powinna posiadać następujące funkcjonalności:_
 
@@ -187,6 +187,6 @@ Aplikacja powinna posiadać następujące funkcjonalności:_
 
 • Pole w którym po przyciśnięciu przycisku konwertuj pojawi się wynik.
 
-### **Zadanie 2.** 
+### [**Zadanie 2.**](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB1/lab1/src/Zadanie2) 
 _Wykorzystując poznane komponenty należy zaprojektować aplikacje/klika, która/e
 zaprezentuje/ą użycie dostępnych metod dla omawianych komponentów._
