@@ -3,7 +3,7 @@
 ### JCHACKBOX, JPASSWORDFIELD, JRADIOBUTTON, JTEXTAREA
 
 ### JTEXTAREA
-```
+```java
 public class JTextArea extends JTextComponent
 ```
 **Commonly used Constructors:**
@@ -111,7 +111,7 @@ public class TextAreaExample extends JFrame implements ActionListener {
 ```
 
 ### JPASSWORDFIELD
-```
+```java
 public class JPasswordField extends JTextField
 ```
 
@@ -133,7 +133,7 @@ się wpisane dane.
 
 ### JRADIOBUTTON
 
-```
+```java
 public class JRadioButton extends JToggleButton implements Accessible
 ```
 **Commonly used Constructors:**
@@ -165,7 +165,7 @@ wyświetli komunikat wybranego systemu.
 <br>![lab2](img/lab3.png)
 
 ### JCHACKBOX
-```
+```java
 public class JCheckBox extends JToggleButton implements Accessible
 ```
 
