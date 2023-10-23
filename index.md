@@ -128,6 +128,10 @@ redirect_to: java.dawidolko.pl
 
 <br>
 
+**[Lab01](object-oriented%20programming%202/LAB2) - LAB2**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2)
+
+<br>
 ### Kolokwia: 
 
  **[Treść zadań](Kolokwium/README.md) - Kolokwium 1**
