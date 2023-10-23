@@ -128,7 +128,7 @@ redirect_to: java.dawidolko.pl
 
 <br>
 
-**[Lab01](object-oriented%20programming%202/LAB2) - LAB2**
+**[Lab02](object-oriented%20programming%202/LAB2) - LAB2**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2)
 
 <br>
