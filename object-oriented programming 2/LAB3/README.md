@@ -24,14 +24,14 @@ Commonly used Methods:
 | `void setEditable(boolean b)`         | It is used to determine whether the JComboBox is editable.         |
 | `void addActionListener(ActionListener a)` | It is used to add the ActionListener.                              |
 
-## ĆWICZENIE 1.
+### ĆWICZENIE 1.
 Zaimplantuj aplikacje zgodnie z poniższym widokiem.
 
 <br>![lab3](img/lab1.png)
 
 Po wybraniu odpowiedniego języka z listy rozwijalnej pojawi się tekst w label, po przyciśnięciu buton Show pojawi się massage z informacją o wybranym języku.
 
-## JTABLE
+### JTABLE
 Commonly used Constructors:
 
 | Constructor                         | Description                             |
@@ -39,12 +39,14 @@ Commonly used Constructors:
 | `JTable()`                          | Creates a table with empty cells.       |
 | `JTable(Object[][] rows, Object[] columns)` | Creates a table with the specified data.|
 
-## ĆWICZENIE 2
+### ĆWICZENIE 2
 Zaprojektuj aplikację według podanego poniżej widoku.
 
 <br>![lab3](img/lab2.png)
 
-JLIST public class JList extends JComponent implements Scrollable, Accessible
+### JLIST 
+```public class JList extends JComponent implements Scrollable, Accessible
+```
 Commonly used Constructors:
 
 | Constructor                            | Description                                      |
@@ -62,14 +64,14 @@ Commonly used Methods:
 | `ListModel getModel()`                          | It is used to return the data model that holds a list of items displayed by the JList component. |
 | `void setListData(Object[] listData)`           | It is used to create a read-only ListModel from an array of objects. |
 
-## ĆWICZENIE 3.
+### ĆWICZENIE 3.
 Zaimplantuj aplikacje zgodnie z poniższym widokiem.
 
 <br>![lab3](img/lab3.png)
 
 Zadania do samodzielnego rozwiązania
 
-## Zadanie 1. 
+### Zadanie 1. 
 Należy zaproponować aplikację GUI, której przykładowy wygląd przedstawiono poniżej, aplikacja powinna posiadać następujące funkcjonalności:
 
 <br>![lab3](img/lab4.png)
