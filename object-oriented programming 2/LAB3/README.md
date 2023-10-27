@@ -69,7 +69,8 @@ Zaimplantuj aplikacje zgodnie z poniższym widokiem.
 
 Zadania do samodzielnego rozwiązania
 
-## Zadanie 1. Należy zaproponować aplikację GUI, której przykładowy wygląd przedstawiono poniżej, aplikacja powinna posiadać następujące funkcjonalności:
+## Zadanie 1. 
+Należy zaproponować aplikację GUI, której przykładowy wygląd przedstawiono poniżej, aplikacja powinna posiadać następujące funkcjonalności:
 
 <br>![lab3](img/lab4.png)
 
