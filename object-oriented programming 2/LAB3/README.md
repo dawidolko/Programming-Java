@@ -2,7 +2,7 @@
 ## GUI JAVA SWING LABORATORIUM
 ### JCOMBOBOX, JTABLE, JLIST, JOPTIONPANE, JSCROLLBAR
 
-## JCOMBOBOX 
+### JCOMBOBOX 
 ```
 public class JComboBox extends JComponent implements ItemSelectable, ListDataListener, ActionListener, Accessible
 ```
