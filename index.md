@@ -132,6 +132,21 @@ redirect_to: java.dawidolko.pl
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB2)
 
 <br>
+
+**[Lab03](object-oriented%20programming%202/LAB3) - LAB3**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB3)
+
+<br>
+
+**[Lab04](object-oriented%20programming%202/LAB4) - LAB4**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB4)
+
+<br>
+
+**[Lab05](object-oriented%20programming%202/LAB2) - LAB5**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB5)
+
+<br>
 ### Kolokwia: 
 
  **[Treść zadań](Kolokwium/README.md) - Kolokwium 1**
