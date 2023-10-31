@@ -1,22 +1,22 @@
-# **Kurs - Samuraj Programowania**
+# **Course - Samurai Programming**
 
-### **Opis:**
-Witaj na kanale "Samuraj Programowania"! Jeśli chcesz zdobyć umiejętności programistyczne na najwyższym poziomie, ten kanał jest dla Ciebie. Znajdziesz tu szeroki wybór materiałów edukacyjnych, praktyczne porady, projekty programistyczne i wiele więcej. Przygotuj się na intensywną naukę i rozwój jako programista.
+### **Description:**
+Welcome to the "Samurai Programming" channel! If you want to gain top-level programming skills, this channel is for you. Here you will find a wide selection of educational materials, practical tips, programming projects and much more. Get ready for intense learning and development as a programmer.
 
-### **Kanał:**
-Kanał "Samuraj Programowania" jest dostępny na platformie YouTube. Możesz go odwiedzić, klikając na ten link: [Samuraj Programowania](https://www.youtube.com/watch?v=wa8fZP6IBuU&list=PLTs20Q-BTEMMJHb4GWFT34PAWxYyzndIY)
+### **Canal:**
+The "Samuraj Programowania" channel is available on YouTube. You can visit it by clicking on this link: [Samuraj Programowania](https://www.youtube.com/watch?v=wa8fZP6IBuU&list=PLTs20Q-BTEMMJHb4GWFT34PAWxYyzndIY)
 
-### **Zawartość Kanału:**
-Na kanale "Samuraj Programowania" znajdziesz kompleksowe kursy programowania, poradniki, wyzwania programistyczne, projekty praktyczne i wiele innych. Kanał skupia się na różnych językach programowania i technologiach, takich jak Java, Python, JavaScript, Ruby, HTML/CSS, frameworki i wiele innych.
+### **Channel Content:**
+On the "Samurai Programming" channel you will find comprehensive programming courses, guides, programming challenges, practical projects and much more. The channel focuses on various programming languages and technologies such as Java, Python, JavaScript, Ruby, HTML/CSS, frameworks, and many others.
 
-### **Jak korzystać z kanału:**
-Możesz wybrać kurs lub temat, który Cię interesuje i rozpocząć naukę od podstaw. Każdy materiał jest starannie zaplanowany i wyjaśniony, aby zapewnić Ci solidne fundamenty programistyczne. Praktyczne projekty i zadania pomogą Ci w praktycznym zastosowaniu zdobytej wiedzy.
+### **How to use the channel:**
+You can choose a course or topic that interests you and start learning from scratch. Each material is carefully planned and explained to give you a solid programming foundation. Practical projects and tasks will help you put your acquired knowledge into practice.
 
-### **Wkład i Wsparcie:**
-Kanał "Samuraj Programowania" jest prowadzony przez doświadczonego programistę, który ma pasję do dzielenia się wiedzą. Twórca kanału stara się udzielać wsparcia i odpowiedzi na pytania uczestników, aby pomóc w ich rozwoju jako programistów.
+### **Contribution and Support:**
+The "Samurai Programming" channel is run by an experienced programmer who has a passion for sharing knowledge. The channel creator strives to provide support and answers to participants' questions to help them develop as developers.
 
-### **Licencja:**
-Materiały udostępniane na kanale "Samuraj Programowania" podlegają odpowiednim licencjom i prawom autorskim. Przed korzystaniem z nich zapoznaj się z informacjami na kanale YouTube.
+### **License:**
+The materials available on the "Samuraj Programowania" channel are subject to appropriate licenses and copyrights. Please read the information on the YouTube channel before using them.
 
-Gotów na wyzwanie?
-Przygotuj się na intensywną naukę i rozwój swoich umiejętności programistycznych na kanale "Samuraj Programowania". Wraz z tą społecznością programistów możesz zdobyć wiedzę i umiejętności potrzebne do osiągnięcia sukcesu w świecie programowania. Nie wahaj się, wejdź do świata programowania i stwórz swoją drogę jako samuraj programowania!
+Ready for the challenge?
+Get ready for intensive learning and development of your programming skills on the "Samurai Programming" channel. With this developer community, you can gain the knowledge and skills you need to succeed in the world of programming. Don't hesitate, enter the world of programming and create your own path as a programming samurai!
