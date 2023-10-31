@@ -1,22 +1,22 @@
-# **Kurs - Kanał o Wszystkim**
+# **Course - Channel About Everything**
 
-### **Opis:**
-Witaj na kanale "Kanał o Wszystkim"! Tutaj znajdziesz różnorodne materiały edukacyjne, ciekawostki, poradniki i wiele więcej na temat różnych dziedzin życia.
+### **Description:**
+Welcome to the "Channel about Everything" channel! Here you will find a variety of educational materials, interesting facts, guides and much more about various areas of life.
 
-### **Kanał:**
-Kanał "Kanał o Wszystkim" dostępny jest na platformie YouTube. Możesz go odwiedzić, klikając na ten link: [Kanał o Wszystkim](https://www.youtube.com/watch?v=sp10JnpVwlc&list=PL6aekdNhY7DCM1wGLQCE9eP3kPzu-P7E7&index=4)
+### **Canal:**
+The "Kanał o Wszystkim" channel is available on YouTube. You can visit it by clicking on this link: [Channel about Everything](https://www.youtube.com/watch?v=sp10JnpVwlc&list=PL6aekdNhY7DCM1wGLQCE9eP3kPzu-P7E7&index=4)
 
-### **Zawartość Kanału:**
-Na kanale "Kanał o Wszystkim" znajdziesz różnorodne tematy, które obejmują szerokie spektrum wiedzy i zainteresowań. Możesz znaleźć tu poradniki, recenzje, prezentacje, dyskusje i wiele innych, dotyczących takich dziedzin jak nauka, technologia, kultura, zdrowie, podróże i wiele innych.
+### **Channel Content:**
+On the "Channel about Everything" channel you will find a variety of topics that cover a wide spectrum of knowledge and interests. Here you can find guides, reviews, presentations, discussions and much more regarding areas such as science, technology, culture, health, travel and many others.
 
-### **Jak korzystać z kanału:**
-Możesz przeglądać i oglądać różne filmy na kanale "Kanał o Wszystkim" według swoich zainteresowań. Zalecamy subskrybowanie kanału, aby być na bieżąco z najnowszymi materiałami i otrzymywać powiadomienia o nowych treściach.
+### **How to use the channel:**
+You can browse and watch various videos on the "Channel about Everything" channel according to your interests. We recommend that you subscribe to the channel to stay up to date with the latest content and receive notifications of new content.
 
-### **Wkład i Wsparcie:**
-Kanał "Kanał o Wszystkim" jest prowadzony przez zespół ekspertów z różnych dziedzin. Jeśli masz pytania lub sugestie dotyczące treści na kanale, możesz skontaktować się z nami poprzez sekcję komentarzy pod poszczególnymi filmami.
+### **Contribution and Support:**
+The "Kanał o Wszystkim" channel is run by a team of experts from various fields. If you have questions or suggestions about the content on the channel, you can contact us via the comments section below each video.
 
-### **Licencja:**
-Treści udostępniane na kanale "Kanał o Wszystkim" podlegają odpowiednim licencjom i prawom autorskim. Zapraszamy do zapoznania się z informacjami na kanale YouTube w celu uzyskania dodatkowych informacji na temat używania i rozpowszechniania materiałów.
+### **License:**
+The content available on the "Kanał o Wszystki" channel is subject to appropriate licenses and copyrights. Please visit our YouTube channel for additional information on the use and distribution of materials.
 
-Zapraszamy do oglądania!
-Ciesz się różnorodnymi treściami na kanale "Kanał o Wszystkim" i poszerzaj swoją wiedzę na temat wielu różnych tematów. Niezależnie od tego, czy jesteś zainteresowany nauką, technologią, podróżami czy kulturą, znajdziesz tu coś dla siebie. Subskrybuj kanał i bądź na bieżąco z nowymi treściami i ciekawymi informacjami!
+We invite you to watch!
+Enjoy a variety of content on the "Channel about Everything" channel and expand your knowledge on many different topics. Whether you are interested in science, technology, travel or culture, you will find something for yourself here. Subscribe to the channel and stay up to date with new content and interesting information!
