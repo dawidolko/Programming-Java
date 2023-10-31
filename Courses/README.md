@@ -1,26 +1,26 @@
-# Kursy języka Java
+# Java courses
 
-Witaj w repozytorium kursów języka Java! Tutaj znajdziesz różnorodne materiały edukacyjne, przykłady kodu i zadania praktyczne, które pomogą Ci nauczyć się programowania w Javie lub rozwijać już posiadane umiejętności.
+Welcome to the Java course repository! Here you will find a variety of educational materials, code examples and practical tasks that will help you learn Java programming or develop existing skills.
 
-## **O projekcie**
-To repozytorium zawiera zestaw kursów języka Java, które zostały stworzone w celu nauki podstawowych i zaawansowanych koncepcji programowania w Javie. Każdy kurs składa się z odpowiednich sekcji, które pokrywają różne tematy związane z Javą.
+## **About the project**
+This repository contains a set of Java courses that are designed to teach you basic and advanced Java programming concepts. Each course consists of relevant sections that cover various Java-related topics.
 
-## **Dostępne kursy**
-Podstawy programowania w Javie - Ten kurs skierowany jest do osób rozpoczynających swoją przygodę z programowaniem w Javie. Nauczysz się podstawowych koncepcji, takich jak zmienne, instrukcje warunkowe, pętle, tablice i wiele innych.
+## **Available courses**
+Basics of programming in Java - This course is aimed at people starting their adventure with programming in Java. You'll learn basic concepts like variables, conditionals, loops, arrays, and more.
 
-Programowanie obiektowe w Javie - Ten kurs rozwinięcia wiedzę z zakresu programowania obiektowego w Javie. Poznasz pojęcia takie jak klasy, obiekty, dziedziczenie, polimorfizm i enkapsulację.
+Object-Oriented Programming in Java - This course will develop your knowledge of object-oriented programming in Java. You will learn concepts such as classes, objects, inheritance, polymorphism and encapsulation.
 
-Java w praktyce - W tym kursie będziesz pracować na praktycznych projektach, które pozwolą Ci zastosować zdobytą wiedzę na rzeczywistych przykładach. Będziesz tworzyć aplikacje, manipulować danymi, obsługiwać wyjątki, korzystać z bibliotek i wiele więcej.
+Java in practice - In this course you will work on practical projects that will allow you to apply your acquired knowledge to real examples. You'll create applications, manipulate data, handle exceptions, use libraries, and much more.
 
-Java dla programistów sieciowych - Ten kurs skupia się na programowaniu aplikacji sieciowych w Javie. Nauczysz się tworzyć serwery TCP/IP, komunikować się z usługami sieciowymi, obsługiwać protokoły HTTP, tworzyć aplikacje klient-serwer i wiele innych.
+Java for Web Developers - This course focuses on programming web applications in Java. You will learn to create TCP/IP servers, communicate with network services, support HTTP protocols, create client-server applications and much more.
 
-## **Jak zacząć**
-Aby rozpocząć naukę z kursami języka Java, wystarczy przejść do odpowiedniego folderu kursu i zapoznać się z dostępnymi materiałami. Każdy kurs zawiera dokumentację, przykłady kodu i zadania praktyczne, które pomogą Ci w nauce.
+## **How ​​to start**
+To start learning with Java courses, simply go to the appropriate course folder and explore the available materials. Each course includes documentation, code examples, and practice tasks to help you learn.
 
-## **Wkład**
-Jeśli masz jakiekolwiek sugestie dotyczące kursów, chcesz zgłosić błąd lub masz pomysł na nowy kurs, zachęcamy do składania pull requestów lub otwierania nowych zgłoszeń w sekcji Issues.
+## **Contribution**
+If you have any suggestions about courses, want to report a bug or have an idea for a new course, we encourage you to submit pull requests or open new issues in the Issues section.
 
-## **Licencja**
-Wszystkie materiały edukacyjne w tym repozytorium są udostępniane na licencji MIT. Możesz je swobodnie używać, modyfikować i udostępniać zgodnie z warunkami licencji.
+## **License**
+All educational materials in this repository are provided under the MIT License. You are free to use, modify and share them under the terms of the license.
 
-Zachęcamy do nauki i rozwijania umiejętności programowania w języku Java! Powodzenia!
+We encourage you to learn and develop your programming skills in Java! Good luck!
