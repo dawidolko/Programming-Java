@@ -1,31 +1,22 @@
-# Kursy języka Java
+# **Course - Samurai Programming**
 
-### **Opis:**
-Witaj w repozytorium kursów języka Java! Tutaj znajdziesz różnorodne materiały edukacyjne, przykłady kodu i zadania praktyczne, które pomogą Ci nauczyć się programowania w Javie lub rozwijać już posiadane umiejętności.
+### **Description:**
+Welcome to the "Samurai Programming" channel! If you want to gain top-level programming skills, this channel is for you. Here you will find a wide selection of educational materials, practical tips, programming projects and much more. Get ready for intense learning and development as a programmer.
 
-### **Autor:**
-Kursy języka Java są prowadzone przez Michała Dziewanowskiego - doświadczonego programistę i nauczyciela. Michał ma bogate doświadczenie w pracy z Javą i pasję do dzielenia się wiedzą z innymi. Jego kursy są starannie zaprojektowane, aby uczestnicy mogli skutecznie rozwijać swoje umiejętności programistyczne.
+### **Canal:**
+The "Samuraj Programowania" channel is available on YouTube. You can visit it by clicking on this link: [Samuraj Programowania](https://www.youtube.com/watch?v=wa8fZP6IBuU&list=PLTs20Q-BTEMMJHb4GWFT34PAWxYyzndIY)
 
-### **Kanał:**
-Kursy języka Java dostępne są na kanale YouTube Michała Dziewanowskiego. Możesz znaleźć je pod tym linkiem: Kursy języka Java - [Michał Dziewanowski](https://www.youtube.com/watch?v=qlnhhDfc-Qg)
+### **Channel Content:**
+On the "Samurai Programming" channel you will find comprehensive programming courses, guides, programming challenges, practical projects and much more. The channel focuses on various programming languages and technologies such as Java, Python, JavaScript, Ruby, HTML/CSS, frameworks, and many others.
 
-### **Dostępne kursy:**
-Podstawy programowania w Javie - Ten kurs skierowany jest do osób rozpoczynających swoją przygodę z programowaniem w Javie. Nauczysz się podstawowych koncepcji, takich jak zmienne, instrukcje warunkowe, pętle, tablice i wiele innych.
+### **How to use the channel:**
+You can choose a course or topic that interests you and start learning from scratch. Each material is carefully planned and explained to give you a solid programming foundation. Practical projects and tasks will help you put your acquired knowledge into practice.
 
-Programowanie obiektowe w Javie - Ten kurs rozwinięcia wiedzę z zakresu programowania obiektowego w Javie. Poznasz pojęcia takie jak klasy, obiekty, dziedziczenie, polimorfizm i enkapsulację.
+### **Contribution and Support:**
+The "Samurai Programming" channel is run by an experienced programmer who has a passion for sharing knowledge. The channel creator strives to provide support and answers to participants' questions to help them develop as developers.
 
-Java w praktyce - W tym kursie będziesz pracować na praktycznych projektach, które pozwolą Ci zastosować zdobytą wiedzę na rzeczywistych przykładach. Będziesz tworzyć aplikacje, manipulować danymi, obsługiwać wyjątki, korzystać z bibliotek i wiele więcej.
+### **License:**
+The materials available on the "Samuraj Programowania" channel are subject to appropriate licenses and copyrights. Please read the information on the YouTube channel before using them.
 
-Java dla programistów sieciowych - Ten kurs skupia się na programowaniu aplikacji sieciowych w Javie. Nauczysz się tworzyć serwery TCP/IP, komunikować się z usługami sieciowymi, obsługiwać protokoły HTTP, tworzyć aplikacje klient-serwer i wiele innych.
-
-### **Jak zacząć:**
-Aby rozpocząć naukę z kursami języka Java, wystarczy wybrać interesujący Cię kurs i zapoznać się z dostępnymi materiałami. Każdy kurs zawiera dokumentację, przykłady kodu i zadania praktyczne, które pomogą Ci w nauce.
-
-### **Wkład i Wsparcie:**
-Jeśli masz jakiekolwiek pytania, sugestie dotyczące kursów lub potrzebujesz wsparcia, możesz skontaktować się z autorem, Michałem Dziewanowskim, poprzez komentarze pod poszczególnymi lekcjami na kanale YouTube.
-
-### **Licencja:**
-Wszystkie materiały edukacyjne w tym repozytorium są udostępniane na licencji MIT. Możesz je swobodnie używać, modyfikować i udostępniać zgodnie z warunkami licencji.
-
-Zapraszamy do nauki!
-Rozpocznij swoją przygodę z programowaniem w języku Java dzięki kursom prowadzonym przez Michała Dziewanowskiego. Jego kursy oferują wartościową wiedzę, praktyczne przykłady i zrozumiałe wyjaśnienia, które pomogą Ci w opanowaniu języka Java i rozwinięciu umiejętności programistycznych.
+Ready for the challenge?
+Get ready for intensive learning and development of your programming skills on the "Samurai Programming" channel. With this developer community, you can gain the knowledge and skills you need to succeed in the world of programming. Don't hesitate, enter the world of programming and create your own path as a programming samurai!
