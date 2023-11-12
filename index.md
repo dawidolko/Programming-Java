@@ -148,7 +148,7 @@ redirect_to: achievements.dawidolko.pl
 
 <br>
 
-**[Example CRUD Java Swing](object-oriented%20programming%202/Example%20CRUD) - LAB5**
+**[Example CRUD Java Swing](object-oriented%20programming%202/Example%20CRUD) - Homework**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/Example%20CRUD)
 
 <br>
