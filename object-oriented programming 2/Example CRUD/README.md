@@ -10,7 +10,7 @@ Zgodnie z poniższym rysunkiem
 
 <br>![example](img/lab1.png)
 
-Bazę stworzymy z użyciem mysql connector of java https://dev.mysql.com/downloads/connector/j/ - należy to pobrać. Wybrać platformę zgodnie z poniższym rysunkiem.
+Bazę stworzymy z użyciem mysql connector of java [link](https://dev.mysql.com/downloads/connector/j/) - należy to pobrać. Wybrać platformę zgodnie z poniższym rysunkiem.
 
 <br>![example](img/lab2.png)
 
