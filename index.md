@@ -147,6 +147,11 @@ redirect_to: achievements.dawidolko.pl
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/LAB5)
 
 <br>
+
+**[Example CRUD Java Swing](object-oriented%20programming%202/Example%20CRUD) - LAB5**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-Java/tree/master/object-oriented%20programming%202/Example%20CRUD)
+
+<br>
 ### Kolokwia: 
 
  **[Treść zadań](Kolokwium/README.md) - Kolokwium 1**
