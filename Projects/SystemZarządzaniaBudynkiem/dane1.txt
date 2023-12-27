@@ -1,7 +1,0 @@
-Dom jednorodzinny
-true
-false
-false
-UszkodzonaWentylacja
-20.0
-8.0
