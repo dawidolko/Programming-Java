@@ -46,7 +46,6 @@ public class BalanceWindow extends JFrame{
     }
 
     private void showBalance() {
-        // Check if the component is correctly initialized
         if (stateBalance == null) {
             JOptionPane.showMessageDialog(this, "Komponent stanu konta nie został zainicjalizowany.", "Błąd", JOptionPane.ERROR_MESSAGE);
             return;
@@ -61,7 +60,6 @@ public class BalanceWindow extends JFrame{
                     double balance = resultSet.getDouble("saldo");
                     stateBalance.setText(String.format("Stan konta: %.2f PLN", balance));
                 } else {
-                    // This block will execute if no record is found for the given card ID
                     stateBalance.setText("Brak danych dla wybranej karty.");
                 }
             }

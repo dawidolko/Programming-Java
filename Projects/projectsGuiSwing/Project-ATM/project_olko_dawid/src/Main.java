@@ -9,21 +9,9 @@ import java.io.File;
 
 
 public class Main {
-    public static void playSound() {
-        try {
-            File soundFile = new File("src/please_calm_my_mind.wav");
-            AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
-            Clip clip = AudioSystem.getClip();
-            clip.open(audioIn);
-            clip.start();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     public static void main(String[] args) {
         try (Connection connection = DatabaseConnector.connect()) {
-            // Przykładowe zapytanie do bazy danych
             String query = "SELECT id, typ, PIN FROM karty";
             try (Statement statement = connection.createStatement();
                  ResultSet resultSet = statement.executeQuery(query)) {
@@ -32,7 +20,6 @@ public class Main {
                     String id = resultSet.getString("id");
                     String typ = resultSet.getString("typ");
                     String PIN = resultSet.getString("PIN");
-                    // Tutaj możesz przetwarzać dane z bazy danych
                 }
             }
         } catch (SQLException e) {
@@ -41,7 +28,6 @@ public class Main {
 
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
         Dashboard dashboardMenu = new Dashboard();
-        playSound();
         dashboardMenu.setVisible(true);
     }
 

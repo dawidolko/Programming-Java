@@ -29,12 +29,10 @@ public class MenuWindow extends JFrame{
         this.pack();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Przykład dodawania obiektów CardItem do JComboBox w MenuWindow
         cardComboBox = new JComboBox<>();
 
-        initializeCardComboBox(); // Oddzielna metoda do wypełniania danych JComboBox
+        initializeCardComboBox();
 
-        // Teraz bezpiecznie możemy dodać ActionListener do cardComboBox
         cardComboBox.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

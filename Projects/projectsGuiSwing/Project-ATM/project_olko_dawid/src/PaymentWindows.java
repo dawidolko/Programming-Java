@@ -17,7 +17,7 @@ public class PaymentWindows extends JFrame{
     private JPanel panelComainPayment;
     private JLabel tittleComainPayment;
     private JPanel panelEndPayment;
-    private int selectedCardId; // Id wybranej karty, powinno być przekazane z MenuWindow
+    private int selectedCardId;
 
     public PaymentWindows(int selectedCardId) {
         super("Payment Window");
@@ -40,7 +40,7 @@ public class PaymentWindows extends JFrame{
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-                    enterButtonPayment.doClick(); // Symuluje kliknięcie przycisku Enter
+                    enterButtonPayment.doClick();
                 }
             }
         });
@@ -64,15 +64,15 @@ public class PaymentWindows extends JFrame{
         });
     }
 
-    private void depositMoney() { // Zmiana nazwy z withdrawMoney na depositMoney
+    private void depositMoney() {
         try {
-            double amountToDeposit = Double.parseDouble(textFieldPayment.getText()); // Zmiana nazwy zmiennej
+            double amountToDeposit = Double.parseDouble(textFieldPayment.getText());
             double currentBalance = getCurrentBalance();
 
             if (amountToDeposit > 0) {
                 double newBalance = currentBalance + amountToDeposit;
                 if (updateBalance(newBalance)) {
-                    recordTransaction("DEPOSIT", amountToDeposit);// Dodajemy tę linijkę
+                    recordTransaction("DEPOSIT", amountToDeposit);
                     JOptionPane.showMessageDialog(this, "Wpłacono: " + amountToDeposit + " PLN.\nNowy stan konta: " + newBalance + " PLN.");
                 } else {
                     JOptionPane.showMessageDialog(this, "Błąd przy aktualizacji salda.", "Błąd", JOptionPane.ERROR_MESSAGE);

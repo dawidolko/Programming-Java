@@ -25,6 +25,8 @@ public class PinWindow extends JFrame{
     private JPanel panelImagePin;
     private String selectedCardType; // Dodano zmienną do przechowywania typu karty
     private int selectedCardId;
+    private static int failedAttempts = 0;
+    private static long lockoutEndTime = 0;
 
     public PinWindow(String selectedCardType, int selectedCardId) {
         super("Pin Window");
@@ -68,7 +70,6 @@ public class PinWindow extends JFrame{
                 } else if (!enteredPin.matches("\\d{4}")) {
                     JOptionPane.showMessageDialog(PinWindow.this, "PIN może zawierać tylko wartości cyfrowe.", "Błąd", JOptionPane.ERROR_MESSAGE);
                 } else {
-                    // Jeśli wszystkie powyższe warunki są spełnione, sprawdzamy PIN.
                     checkPin(enteredPin);
                 }
             }
@@ -78,7 +79,7 @@ public class PinWindow extends JFrame{
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-                    enterButtonPin.doClick(); // Symuluje kliknięcie przycisku Enter
+                    enterButtonPin.doClick();
                 }
             }
         });
@@ -93,7 +94,7 @@ public class PinWindow extends JFrame{
         });
     }
 
-//    private void checkPin(String enteredPin) {                                // <--- oldMain <---
+//    private void checkPin(String enteredPin) {                                // <--- MainRandowPassword <---
 //        String correctPin = oldMain.generatedPins.get(selectedCardType);
 //        if (correctPin != null && correctPin.equals(enteredPin)) {
 //            // PIN jest poprawny, przechodzimy do MenuWindow
@@ -108,8 +109,21 @@ public class PinWindow extends JFrame{
 //        }
 //    }
 
+    public static boolean isUserLockedOut() {
+        // Check if the current time is past the lockoutEndTime
+        return System.currentTimeMillis() < lockoutEndTime;
+    }
 
-    private void checkPin(String enteredPin) {                                // <--- Main <---
+
+    private void checkPin(String enteredPin) {
+        // Check if the user is currently locked out and if the lockout period has passed.
+        if (System.currentTimeMillis() < lockoutEndTime) {
+            // The user is still locked out, so inform them how much longer they have to wait.
+            long timeLeft = (lockoutEndTime - System.currentTimeMillis()) / 1000;
+            JOptionPane.showMessageDialog(this, "Twoje konto jest zablokowane na wpisywanie hasła. Pozostało " + timeLeft + " sekund.", "Konto Zablokowane", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
         try (Connection connection = DatabaseConnector.connect()) {
             String query = "SELECT PIN FROM karty WHERE typ = ?";
             try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
@@ -118,16 +132,18 @@ public class PinWindow extends JFrame{
                 if (resultSet.next()) {
                     String correctPin = resultSet.getString("PIN");
                     if (correctPin.equals(enteredPin)) {
-                        // Jeśli PIN jest poprawny, przechodzimy do MenuWindow
-                        SwingUtilities.invokeLater(() -> {
-//                            System.out.println(selectedCardId);
-                            MenuWindow menuWindow = new MenuWindow(selectedCardId);
-                            menuWindow.setVisible(true);
-                        });
-                        dispose();
+                        failedAttempts = 0; // reset the counter on success
+                        // TODO: Replace with your success logic, such as opening a menu window.
                     } else {
-                        // Jeśli PIN jest niepoprawny, wyświetlamy komunikat
-                        JOptionPane.showMessageDialog(this, "Nieprawidłowy PIN.");
+                        failedAttempts++; // increment the counter on failure
+                        if (failedAttempts >= 3) {
+                            // User has failed 3 attempts, lock out for 3 minutes and show message
+                            lockoutEndTime = System.currentTimeMillis() + (3 * 60 * 1000); // Lock out for 3 minutes
+                            JOptionPane.showMessageDialog(this, "Masz blokadę na wpisywanie hasła, zostaniesz przeniesiony do dashboardu.", "Zablokowano dostęp", JOptionPane.ERROR_MESSAGE);
+                            // TODO: Replace with your lockout logic, such as redirecting to a dashboard.
+                        } else {
+                            JOptionPane.showMessageDialog(this, "Nieprawidłowy PIN. Pozostało prób: " + (3 - failedAttempts), "Błąd", JOptionPane.ERROR_MESSAGE);
+                        }
                     }
                 } else {
                     JOptionPane.showMessageDialog(this, "Nie znaleziono karty.");
@@ -137,4 +153,6 @@ public class PinWindow extends JFrame{
             e.printStackTrace();
         }
     }
+
 }
+

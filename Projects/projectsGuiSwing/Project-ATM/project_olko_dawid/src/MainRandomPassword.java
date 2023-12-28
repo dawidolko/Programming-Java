@@ -24,10 +24,8 @@ public class MainRandomPassword {
                     String pin = String.format("%04d", random.nextInt(10000));
                     generatedPins.put(cardType, pin);
 
-                    // Aktualizuj hasło w bazie danych
                     updateCardPin(connection, cardType, pin);
 
-                    // Wypisz hasło na ekranie
                     System.out.println(cardType + ": " + pin);
                 }
             } else {
@@ -39,7 +37,6 @@ public class MainRandomPassword {
 
         System.out.println("Working Directory = " + System.getProperty("user.dir"));
         Dashboard dashboardMenu = new Dashboard();
-        Main.playSound();
         dashboardMenu.setVisible(true);
     }
 

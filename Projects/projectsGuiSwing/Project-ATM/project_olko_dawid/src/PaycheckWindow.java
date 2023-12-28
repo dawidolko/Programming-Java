@@ -20,7 +20,7 @@ public class PaycheckWindow extends JFrame{
     private JPanel panelComainPaycheck;
     private JLabel tittleComainPaycheck;
     private JPanel panelEndPaycheck;
-    private int selectedCardId; // Id wybranej karty, powinno być przekazane z MenuWindow
+    private int selectedCardId;
 
 
     public PaycheckWindow(int selectedCardId) {
