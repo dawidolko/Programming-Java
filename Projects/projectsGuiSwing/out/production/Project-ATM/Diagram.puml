@@ -1,0 +1,179 @@
+@startuml
+class BalanceWindow {
+- JButton buttonSlideBalance
+- JButton returnButtonBalance
+- JPanel panelBalance
+- JPanel panelTittleBalance
+- JPanel panelImageBalance
+- JPanel panelComainBalance
+- JLabel tittleComainBalance
+- JLabel stateBalance
+- JPanel panelEndBalance
+- int selectedCardId
++ <<Create>> BalanceWindow(int)
+- void showBalance()
+}
+class MainRandomPassword {
++ {static} void main(String[])
+- {static} void updateCardPin(Connection,String,String)
+}
+class PaymentWindows {
+- JTextField textFieldPayment
+- JButton enterButtonPayment
+- JButton slideButtonPayment
+- JButton returnButtonPayment
+- JPanel panelPayment
+- JPanel panelTittlePayment
+- JLabel tittlePayment
+- JPanel panelImagePayment
+- JPanel panelComainPayment
+- JLabel tittleComainPayment
+- JPanel panelEndPayment
+- int selectedCardId
++ <<Create>> PaymentWindows(int)
+- void depositMoney()
+- double getCurrentBalance()
+- boolean updateBalance(double)
+- boolean recordTransaction(String,double)
+}
+class PinWindow {
+- JPanel panelPin
+- JLabel tittleMainPin
+- JPasswordField passwordFieldPin
+- JButton enterButtonPin
+- JButton returnButtonPin
+- JPanel panelTittlePin
+- JPanel panelComainPin
+- JPanel panelEndPin
+- JPanel panelImagePin
+- String selectedCardType
+- int selectedCardId
+- {static} int failedAttempts
+- {static} long lockoutEndTime
++ <<Create>> PinWindow(String,int)
++ {static} boolean isUserLockedOut()
+- void checkPin(String)
+}
+class MenuWindow {
+- JButton checkButtonMenu
+- JButton paycheckButtonMenu
+- JButton paymentButtonMenu
+- JButton TransactionButtonMenu
+- JButton slideButtonMenu
+- JPanel panelMenu
+- JPanel penelTittleMenu
+- JLabel tittleMenu
+- JPanel panelComainMenu
+- JLabel tittleComainMenu
+- JPanel PanelEndMenu
+- JPanel panelImageMenu
+- JComboBox<CardItem> cardComboBox
+- int selectedCardId
++ <<Create>> MenuWindow(int)
+- void initializeCardComboBox()
+}
+class PaycheckWindow {
+- JTextField textFieldPaycheck
+- JButton enterButtonPaycheck
+- JButton slideButtonPaycheck
+- JButton returnButtonPaycheck
+- JPanel panelPaycheck
+- JPanel panelTittlePaycheck
+- JLabel tittlePaycheck
+- JPanel panelImagePaycheck
+- JPanel panelComainPaycheck
+- JLabel tittleComainPaycheck
+- JPanel panelEndPaycheck
+- int selectedCardId
++ <<Create>> PaycheckWindow(int)
+- void withdrawMoney()
+- double getCurrentBalance()
+- boolean updateBalance(double)
+- boolean recordTransaction(String,double)
+}
+class DatabaseConnector {
+- {static} String DATABASE_URL
+- {static} String DATABASE_USER
+- {static} String DATABASE_PASSWORD
++ {static} Connection connect()
+}
+class MyTableModel {
+~ boolean editable
++ <<Create>> MyTableModel(Object[],int)
++ boolean isCellEditable(int,int)
++ void setCellEditable(boolean)
+}
+class Main {
++ {static} void main(String[])
+}
+class CardItem {
+- int id
+- String name
++ <<Create>> CardItem(int,String)
++ int getId()
++ String toString()
+}
+class Dashboard {
+- JPanel panelDashboard
+- JLabel titleMainDashboard
+- JPanel imagePanel
+- JLabel titleComainLeft
+- JComboBox comboBoxCard
+- JButton buttonChoseCard
+- JButton LeaveButton
+- JPanel panelTitleDashboard
+- JPanel panelComain
+- JPanel panelChoseDashboard
+- JPanel panelEndDashboard
+- JRadioButton ATMCARDRadioButton
+- JRadioButton CREDITCARDRadioButton
+- JRadioButton CREDITCARDRadioButton1
+- JPanel radioButton
+- JButton exportButton
+- JButton importButton
+- JSlider slider1
+- Clip clip
+- {static} boolean isLockedOut
+- {static} long lockoutEndTime
++ <<Create>> Dashboard()
+- void exportTable(String)
+- void importData(File)
++ void playSound()
++ {static} void main(String[])
+}
+class HistoryWindow {
+- JTable tableHistory
+- JButton slideButtonHistory
+- JButton returnButtonHistory
+- JPanel panelHistory
+- JPanel panelTittleHistory
+- JLabel tittleHistory
+- JPanel panelImage
+- JPanel panelComainHistory
+- JScrollPane scrollPanel
+- JLabel tittleComainHistory
+- JPanel panelEndHistory
+- JPanel panelButtons
+- JButton editButton
+- JButton clearButton
+- JButton deleteButton
+- int selectedCardId
++ <<Create>> HistoryWindow(int)
+- void toggleTableEditable()
+- void deleteSelectedTransaction()
+- void clearSelectedRows()
+- void deleteRecord(int)
+- void initializeTable()
+- void loadTransactionHistory()
+}
+
+
+JFrame <|-- BalanceWindow
+JFrame <|-- PaymentWindows
+JFrame <|-- PinWindow
+JFrame <|-- MenuWindow
+JFrame <|-- PaycheckWindow
+javax.swing.table.DefaultTableModel <|-- MyTableModel
+JFrame <|-- Dashboard
+JFrame <|-- HistoryWindow
+@enduml
